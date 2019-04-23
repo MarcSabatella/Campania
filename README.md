@@ -2,7 +2,7 @@
 Font for Roman numeral analysis (music theory)
 
 This font is inspired by the work of [Florian Kretlow](https://github.com/fkretlow)
-and the immpressive [Figurato](https://github.com/fkretlow/figurato) font he developed for figured bass,
+and the impressive [Figurato](https://github.com/fkretlow/figurato) font he developed for figured bass,
 as well as the work of Ronald Caltabiano and his pioneering Sicialian Numerals font.
 This current version of Campania is not directly based on either of these, however.
 Instead, it uses the glyphs from [FreeSerif](https://www.gnu.org/software/freefont/),
