@@ -5,12 +5,9 @@ This font is inspired by the work of [Florian Kretlow](https://github.com/fkretl
 and the impressive [Figurato](https://github.com/fkretlow/figurato) font he developed for figured bass,
 as well as the work of Ronald Caltabiano and his pioneering Sicialian Numerals font.
 This current version of Campania is not directly based on either of these, however.
-Instead, it uses the glyphs from [FreeSerif](https://www.gnu.org/software/freefont/),
-and adds some ligatures and relatively straightforward contextual substitutions
+Instead, it uses the glyphs from [Doulos](https://software.sil.org/doulos/)
+and adds somerelatively straightforward contextual substitutions and positioning rules
 to allow you to enter the most common symbols just by typing naturally.
-I do plan to extend the font over time, but I am not sure if I will continue with this simple approach.
-Future versions of the font may incorporate more of the positioning approaches used in Figurato,
-or a new font may be developed that inherits from it more directly.
 
 To use Campania, simply type as you normally would, and substitutions happen automatically.
 The standard indications for inversions and seventh chords (e.g., 6, 7, 64, 643, 43)
