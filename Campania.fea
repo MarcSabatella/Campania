@@ -1,0 +1,158 @@
+# Campania
+
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+languagesystem musc dflt;
+
+# classes
+
+@brackets = [ parenleft parenright bracketleft bracketright braceleft braceright ];
+
+@accidentals = [ flat natural sharp doubleflat doublesharp ];
+@accidentalssuperior = [ flatsuperior naturalsuperior sharpsuperior doubleflatsuperior doublesharpsuperior ];
+@accidentalsraw = [ b h numbersign doubleflat x ];
+
+@rootsupper = [ oneromanupper tworomanupper threeromanupper fourromanupper fiveromanupper sixromanupper sevenromanupper ];
+@rootslower = [ oneromanlower tworomanlower threeromanlower fourromanlower fiveromanlower sixromanlower sevenromanlower ];
+@roots = [ A-Z a-z ];
+
+@quality = [ m M a A j degree degreeslash ];
+
+@intervals = [ zero one two three four five six seven eight nine ];
+@intervalssuperior = [ zerosuperior onesuperior twosuperior threesuperior foursuperior fivesuperior sixsuperior sevensuperior eightsuperior ninesuperior ];
+@intervalssubscript = [ zerosubscript onesubscript twosubscript threesubscript foursubscript fivesubscript sixsubscript sevensubscript eightsubscript ninesubscript ];
+
+# symbol lookups
+
+lookup liga_symbols {
+    sub b' b' @roots by doubleflat;
+    sub b' b' @intervals by doubleflat;
+    sub @roots b' b' by doubleflatsuperior;
+    sub @roots @quality b' b' by doubleflatsuperior;
+    sub @intervalssuperior b' b' by doubleflatsuperior;
+    sub @intervalssubscript b' b' by doubleflatsuperior;
+} liga_symbols;
+
+lookup leading {
+    sub @accidentalsraw' @roots by @accidentals;
+    sub slash @accidentalsraw' by @accidentals;
+} leading;
+
+lookup trailing {
+    sub @roots o' by degree;
+    sub @roots zero' by degreeslash;
+} trailing;
+
+# root lookups
+
+#lookup root_upper_1 {
+#    sub I by oneromanupper;
+#    sub V by fiveromanupper;
+#} root_upper_1;
+
+#lookup root_upper_2 {
+#    sub I I I by threeromanupper;
+#    sub I I by tworomanupper;
+#    sub I V by fourromanupper;
+#    sub V I I by sevenromanupper;
+#    sub V I by sixromanupper;
+#} root_upper_2;
+
+#lookup root_lower_1 {
+#    sub i by oneromanlower;
+#    sub v by fiveromanlower;
+#} root_lower_1;
+
+#lookup root_lower_2 {
+#    sub i i i by threeromanlower;
+#    sub i i by tworomanlower;
+#    sub i v by fourromanlower;
+#    sub v i i by sevenromanlower;
+#    sub v i by sixromanlower;
+#} root_lower_2;
+
+# interval and inversion lookups
+
+lookup intervals_1 {
+        sub @roots @intervals' by @intervalssuperior;
+        sub @roots @quality @intervals' by @intervalssuperior;
+} intervals_1;
+
+lookup intervals_2 {
+    sub onesuperior @intervals' by @intervalssuperior;
+} intervals_2;
+
+lookup inversion_3 {
+    sub @intervalssuperior @intervals' @intervals by @intervalssuperior;
+} inversion_3;
+
+lookup inversion_2 {
+    sub @intervalssuperior @intervals' by @intervalssubscript;
+    sub hyphen @intervals' by @intervalssuperior;
+} inversion_2;
+
+# alteration lookups
+
+lookup alterations {
+    sub @intervalssuperior @accidentalsraw' by @accidentalssuperior;
+    sub @intervalssubscript @accidentalsraw' by @accidentalssuperior;
+    sub @accidentalssuperior @intervals' by @intervalssuperior;
+    sub @roots @accidentalsraw' by @accidentalssuperior;
+    sub @roots @quality @accidentalsraw' by @accidentalssuperior;
+} alterations;
+
+lookup resolutions {
+    sub @intervalssuperior hyphen' by hyphensuperior;
+    sub @intervalssubscript hyphen' by hyphensuperior hyphensubscript;
+    sub @intervalssubscript equal' by hyphensuperior hyphensubscript;
+    sub hyphensuperior @intervals' by @intervalssuperior;
+    sub hyphensubscript @intervals' by @intervalssuperior;
+} resolutions;
+
+#lookup inversion_1 {
+#    sub @accidentalsraw' @intervals by @accidentals;
+#} inversion_1;
+
+feature liga {
+#    lookup root_upper_2;
+#    lookup root_lower_2;
+    lookup liga_symbols;
+} liga;
+
+feature calt {
+#    lookup root_upper_1;
+#    lookup root_lower_1;
+    lookup leading;
+    lookup trailing;
+    lookup intervals_1;
+    lookup intervals_2;
+    lookup inversion_3;
+    lookup inversion_2;
+    lookup alterations;
+    lookup resolutions;
+#    lookup inversion_1;
+} calt;
+
+# position lookups
+# these values are specific to Doulos metrics
+
+lookup symbol_spacing {
+    pos @brackets <0 250 0 0>;
+    pos @accidentals <100 0 100 0>;
+} symbol_spacing;
+
+lookup inversion_3_pos {
+    pos @intervalssuperior' <0 875 0 0> @intervalssuperior @intervalssubscript;
+} inversion_3_pos;
+
+lookup inversion_2_pos {
+    pos @intervalssuperior @intervalssubscript -737;
+    pos @intervalssuperior @intervalssuperior -737;
+    pos hyphensuperior hyphensubscript -395;
+} inversion_2_pos;
+
+feature kern {
+    lookup symbol_spacing;
+    lookup inversion_3_pos;
+    lookup inversion_2_pos;
+} kern;
