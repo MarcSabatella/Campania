@@ -89,6 +89,7 @@ lookup inversion_3 {
 lookup inversion_2 {
     sub @intervalssuperior @intervals' by @intervalssubscript;
     sub hyphen @intervals' by @intervalssuperior;
+    sub equal @intervals' by @intervalssuperior;
 } inversion_2;
 
 # alteration lookups
