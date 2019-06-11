@@ -8,12 +8,14 @@
 @accidentalssuperior = [ flatsuperior naturalsuperior sharpsuperior doubleflatsuperior doublesharpsuperior ];
 @accidentalsraw = [ b h numbersign doubleflat x ];
 
-@rootsupper = [ oneromanupper tworomanupper threeromanupper fourromanupper fiveromanupper sixromanupper sevenromanupper ];
-@rootslower = [ oneromanlower tworomanlower threeromanlower fourromanlower fiveromanlower sixromanlower sevenromanlower ];
-@roots = [ A-Z a-z ];
+@romanupper = [ oneromanupper tworomanupper threeromanupper fourromanupper fiveromanupper sixromanupper sevenromanupper ];
+@romanlower = [ oneromanlower tworomanlower threeromanlower fourromanlower fiveromanlower sixromanlower sevenromanlower ];
+@roman = [ @romanupper @romanlower ];
+@roots = [ A-Z a-z @roman ];
 
 @quality = [ m M a A j degree degreeslash ];
 
 @intervals = [ zero one two three four five six seven eight nine ];
 @intervalssuperior = [ zerosuperior onesuperior twosuperior threesuperior foursuperior fivesuperior sixsuperior sevensuperior eightsuperior ninesuperior ];
 @intervalssubscript = [ zerosubscript onesubscript twosubscript threesubscript foursubscript fivesubscript sixsubscript sevensubscript eightsubscript ninesubscript ];
+@intervalsstack = [ @intervalssuperior @intervalssubscript ];

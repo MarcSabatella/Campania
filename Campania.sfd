@@ -4,7 +4,7 @@ FullName: Campania
 FamilyName: Campania
 Weight: Book
 Copyright: Copyright (c) Marc Sabatella, SIL International, 1994-2019
-Version: 2.000
+Version: 2.002
 ItalicAngle: 0
 UnderlinePosition: -350
 UnderlineWidth: 120
@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1414130042
-ModificationTime: 1560228023
+ModificationTime: 1560278258
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -74,41 +74,132 @@ Lookup: 1 0 0 "Single Substitution lookup 12" { "Single Substitution lookup 12 s
 Lookup: 6 0 0 "intervals_1" { "intervals_1 contextual 0"  "intervals_1 contextual 1"  } ['calt' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "Single Substitution lookup 14" { "Single Substitution lookup 14 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 15" { "Single Substitution lookup 15 subtable"  } []
-Lookup: 6 0 0 "intervals_2" { "intervals_2 subtable"  } ['calt' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 6 0 0 "intervals_2" { "intervals_2 contextual 0"  "intervals_2 contextual 1"  } ['calt' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "Single Substitution lookup 17" { "Single Substitution lookup 17 subtable"  } []
 Lookup: 6 0 0 "inversion_3" { "inversion_3 subtable"  } ['calt' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "Single Substitution lookup 19" { "Single Substitution lookup 19 subtable"  } []
-Lookup: 6 0 0 "inversion_2" { "inversion_2 contextual 0"  "inversion_2 contextual 1"  "inversion_2 contextual 2"  } ['calt' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 6 0 0 "inversion_2" { "inversion_2 contextual 0"  "inversion_2 contextual 1"  } ['calt' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "Single Substitution lookup 21" { "Single Substitution lookup 21 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 22" { "Single Substitution lookup 22 subtable"  } []
-Lookup: 1 0 0 "Single Substitution lookup 23" { "Single Substitution lookup 23 subtable"  } []
 Lookup: 6 0 0 "alterations" { "alterations contextual 0"  "alterations contextual 1"  "alterations contextual 2"  "alterations contextual 3"  "alterations contextual 4"  } ['calt' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution lookup 24" { "Single Substitution lookup 24 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 25" { "Single Substitution lookup 25 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 26" { "Single Substitution lookup 26 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 27" { "Single Substitution lookup 27 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 28" { "Single Substitution lookup 28 subtable"  } []
-Lookup: 1 0 0 "Single Substitution lookup 29" { "Single Substitution lookup 29 subtable"  } []
 Lookup: 6 0 0 "resolutions" { "resolutions contextual 0"  "resolutions contextual 1"  "resolutions contextual 2"  "resolutions contextual 3"  "resolutions contextual 4"  } ['calt' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 1 0 0 "Single Substitution lookup 31" { "Single Substitution lookup 31 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 30" { "Single Substitution lookup 30 subtable"  } []
+Lookup: 2 0 0 "Multiple Substitution lookup 31" { "Multiple Substitution lookup 31 subtable"  } []
 Lookup: 2 0 0 "Multiple Substitution lookup 32" { "Multiple Substitution lookup 32 subtable"  } []
-Lookup: 2 0 0 "Multiple Substitution lookup 33" { "Multiple Substitution lookup 33 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 33" { "Single Substitution lookup 33 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 34" { "Single Substitution lookup 34 subtable"  } []
-Lookup: 1 0 0 "Single Substitution lookup 35" { "Single Substitution lookup 35 subtable"  } []
 Lookup: 257 0 0 "symbol_spacing" { "symbol_spacing subtable"  } ['kern' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 264 0 0 "inversion_3_pos" { "inversion_3_pos subtable"  } ['kern' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 264 0 0 "inversion_3_pos" { "inversion_3_pos contextual 0"  "inversion_3_pos contextual 1"  "inversion_3_pos contextual 2"  "inversion_3_pos contextual 3"  "inversion_3_pos contextual 4"  } ['kern' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 257 0 0 "Single Positioning lookup 2" { "Single Positioning lookup 2 subtable"  } []
+Lookup: 257 0 0 "Single Positioning lookup 3" { "Single Positioning lookup 3 subtable"  } []
+Lookup: 257 0 0 "Single Positioning lookup 4" { "Single Positioning lookup 4 subtable"  } []
+Lookup: 257 0 0 "Single Positioning lookup 5" { "Single Positioning lookup 5 subtable"  } []
+Lookup: 257 0 0 "Single Positioning lookup 6" { "Single Positioning lookup 6 subtable"  } []
 Lookup: 258 0 0 "inversion_2_pos" { "inversion_2_pos per glyph data 0"  "inversion_2_pos kerning class 1"  } ['kern' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 264 0 0 "inversion_one_pos" { "inversion_one_pos contextual 0"  "inversion_one_pos contextual 1"  "inversion_one_pos contextual 2"  "inversion_one_pos contextual 3"  "inversion_one_pos contextual 4"  } ['kern' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 257 0 0 "Single Positioning lookup 9" { "Single Positioning lookup 9 subtable"  } []
+Lookup: 257 0 0 "Single Positioning lookup 10" { "Single Positioning lookup 10 subtable"  } []
+Lookup: 257 0 0 "Single Positioning lookup 11" { "Single Positioning lookup 11 subtable"  } []
+Lookup: 257 0 0 "Single Positioning lookup 12" { "Single Positioning lookup 12 subtable"  } []
+Lookup: 257 0 0 "Single Positioning lookup 13" { "Single Positioning lookup 13 subtable"  } []
 MarkAttachClasses: 1
 DEI: 91125
-KernClass2: 2 3 "inversion_2_pos kerning class 1"
- 129 eightsuperior fivesuperior foursuperior ninesuperior onesuperior sevensuperior sixsuperior threesuperior twosuperior zerosuperior
+KernClass2: 4 3 "inversion_2_pos kerning class 1"
+ 117 eightsuperior fivesuperior foursuperior ninesuperior sevensuperior sixsuperior threesuperior twosuperior zerosuperior
+ 12 onesubscript
+ 11 onesuperior
  139 eightsubscript fivesubscript foursubscript ninesubscript onesubscript sevensubscript sixsubscript threesubscript twosubscript zerosubscript
  129 eightsuperior fivesuperior foursuperior ninesuperior onesuperior sevensuperior sixsuperior threesuperior twosuperior zerosuperior
- 0 {} 0 {} 0 {} 0 {} -737 {} -737 {}
-ChainPos2: coverage "inversion_3_pos subtable" 0 0 0 1
- 1 0 2
-  Coverage: 129 zerosuperior onesuperior twosuperior threesuperior foursuperior fivesuperior sixsuperior sevensuperior eightsuperior ninesuperior
+ 0 {} 0 {} 0 {} 0 {} -737 {} -737 {} 0 {} -150 {} 0 {} 0 {} 0 {} -150 {}
+ChainPos2: coverage "inversion_one_pos contextual 4" 0 0 0 1
+ 1 2 0
+  Coverage: 269 zerosuperior onesuperior twosuperior threesuperior foursuperior fivesuperior sixsuperior sevensuperior eightsuperior ninesuperior zerosubscript onesubscript twosubscript threesubscript foursubscript fivesubscript sixsubscript sevensubscript eightsubscript ninesubscript
+  BCoverage: 117 zerosuperior twosuperior threesuperior foursuperior fivesuperior sixsuperior sevensuperior eightsuperior ninesuperior
+  BCoverage: 11 onesuperior
+ 1
+  SeqLookup: 0 "Single Positioning lookup 13"
+EndFPST
+ChainPos2: coverage "inversion_one_pos contextual 3" 0 0 0 1
+ 1 2 0
+  Coverage: 269 zerosuperior onesuperior twosuperior threesuperior foursuperior fivesuperior sixsuperior sevensuperior eightsuperior ninesuperior zerosubscript onesubscript twosubscript threesubscript foursubscript fivesubscript sixsubscript sevensubscript eightsubscript ninesubscript
+  BCoverage: 11 onesuperior
+  BCoverage: 11 onesuperior
+ 1
+  SeqLookup: 0 "Single Positioning lookup 12"
+EndFPST
+ChainPos2: coverage "inversion_one_pos contextual 2" 0 0 0 1
+ 1 2 1
+  Coverage: 269 zerosuperior onesuperior twosuperior threesuperior foursuperior fivesuperior sixsuperior sevensuperior eightsuperior ninesuperior zerosubscript onesubscript twosubscript threesubscript foursubscript fivesubscript sixsubscript sevensubscript eightsubscript ninesubscript
+  BCoverage: 11 onesuperior
+  BCoverage: 11 onesuperior
+  FCoverage: 269 zerosuperior onesuperior twosuperior threesuperior foursuperior fivesuperior sixsuperior sevensuperior eightsuperior ninesuperior zerosubscript onesubscript twosubscript threesubscript foursubscript fivesubscript sixsubscript sevensubscript eightsubscript ninesubscript
+ 1
+  SeqLookup: 0 "Single Positioning lookup 11"
+EndFPST
+ChainPos2: coverage "inversion_one_pos contextual 1" 0 0 0 1
+ 1 3 0
+  Coverage: 269 zerosuperior onesuperior twosuperior threesuperior foursuperior fivesuperior sixsuperior sevensuperior eightsuperior ninesuperior zerosubscript onesubscript twosubscript threesubscript foursubscript fivesubscript sixsubscript sevensubscript eightsubscript ninesubscript
+  BCoverage: 269 zerosuperior onesuperior twosuperior threesuperior foursuperior fivesuperior sixsuperior sevensuperior eightsuperior ninesuperior zerosubscript onesubscript twosubscript threesubscript foursubscript fivesubscript sixsubscript sevensubscript eightsubscript ninesubscript
+  BCoverage: 117 zerosuperior twosuperior threesuperior foursuperior fivesuperior sixsuperior sevensuperior eightsuperior ninesuperior
+  BCoverage: 11 onesuperior
+ 1
+  SeqLookup: 0 "Single Positioning lookup 10"
+EndFPST
+ChainPos2: coverage "inversion_one_pos contextual 0" 0 0 0 1
+ 1 3 0
+  Coverage: 269 zerosuperior onesuperior twosuperior threesuperior foursuperior fivesuperior sixsuperior sevensuperior eightsuperior ninesuperior zerosubscript onesubscript twosubscript threesubscript foursubscript fivesubscript sixsubscript sevensubscript eightsubscript ninesubscript
+  BCoverage: 269 zerosuperior onesuperior twosuperior threesuperior foursuperior fivesuperior sixsuperior sevensuperior eightsuperior ninesuperior zerosubscript onesubscript twosubscript threesubscript foursubscript fivesubscript sixsubscript sevensubscript eightsubscript ninesubscript
+  BCoverage: 11 onesuperior
+  BCoverage: 11 onesuperior
+ 1
+  SeqLookup: 0 "Single Positioning lookup 9"
+EndFPST
+ChainPos2: coverage "inversion_3_pos contextual 4" 0 0 0 1
+ 1 0 3
+  Coverage: 117 zerosuperior twosuperior threesuperior foursuperior fivesuperior sixsuperior sevensuperior eightsuperior ninesuperior
+  FCoverage: 11 onesuperior
   FCoverage: 129 zerosuperior onesuperior twosuperior threesuperior foursuperior fivesuperior sixsuperior sevensuperior eightsuperior ninesuperior
+  FCoverage: 139 zerosubscript onesubscript twosubscript threesubscript foursubscript fivesubscript sixsubscript sevensubscript eightsubscript ninesubscript
+ 1
+  SeqLookup: 0 "Single Positioning lookup 6"
+EndFPST
+ChainPos2: coverage "inversion_3_pos contextual 3" 0 0 0 1
+ 1 0 2
+  Coverage: 117 zerosuperior twosuperior threesuperior foursuperior fivesuperior sixsuperior sevensuperior eightsuperior ninesuperior
+  FCoverage: 117 zerosuperior twosuperior threesuperior foursuperior fivesuperior sixsuperior sevensuperior eightsuperior ninesuperior
+  FCoverage: 139 zerosubscript onesubscript twosubscript threesubscript foursubscript fivesubscript sixsubscript sevensubscript eightsubscript ninesubscript
+ 1
+  SeqLookup: 0 "Single Positioning lookup 5"
+EndFPST
+ChainPos2: coverage "inversion_3_pos contextual 2" 0 0 0 1
+ 1 1 2
+  Coverage: 11 onesuperior
+  BCoverage: 11 onesuperior
+  FCoverage: 117 zerosuperior twosuperior threesuperior foursuperior fivesuperior sixsuperior sevensuperior eightsuperior ninesuperior
+  FCoverage: 139 zerosubscript onesubscript twosubscript threesubscript foursubscript fivesubscript sixsubscript sevensubscript eightsubscript ninesubscript
+ 1
+  SeqLookup: 0 "Single Positioning lookup 4"
+EndFPST
+ChainPos2: coverage "inversion_3_pos contextual 1" 0 0 0 1
+ 1 0 4
+  Coverage: 11 onesuperior
+  FCoverage: 129 zerosuperior onesuperior twosuperior threesuperior foursuperior fivesuperior sixsuperior sevensuperior eightsuperior ninesuperior
+  FCoverage: 11 onesuperior
+  FCoverage: 129 zerosuperior onesuperior twosuperior threesuperior foursuperior fivesuperior sixsuperior sevensuperior eightsuperior ninesuperior
+  FCoverage: 139 zerosubscript onesubscript twosubscript threesubscript foursubscript fivesubscript sixsubscript sevensubscript eightsubscript ninesubscript
+ 1
+  SeqLookup: 0 "Single Positioning lookup 3"
+EndFPST
+ChainPos2: coverage "inversion_3_pos contextual 0" 0 0 0 1
+ 1 0 3
+  Coverage: 11 onesuperior
+  FCoverage: 129 zerosuperior onesuperior twosuperior threesuperior foursuperior fivesuperior sixsuperior sevensuperior eightsuperior ninesuperior
+  FCoverage: 117 zerosuperior twosuperior threesuperior foursuperior fivesuperior sixsuperior sevensuperior eightsuperior ninesuperior
   FCoverage: 139 zerosubscript onesubscript twosubscript threesubscript foursubscript fivesubscript sixsubscript sevensubscript eightsubscript ninesubscript
  1
   SeqLookup: 0 "Single Positioning lookup 2"
@@ -118,83 +209,76 @@ ChainSub2: coverage "resolutions contextual 4" 0 0 0 1
   Coverage: 49 zero one two three four five six seven eight nine
   BCoverage: 15 hyphensubscript
  1
-  SeqLookup: 0 "Single Substitution lookup 35"
+  SeqLookup: 0 "Single Substitution lookup 34"
 EndFPST
 ChainSub2: coverage "resolutions contextual 3" 0 0 0 1
  1 1 0
   Coverage: 49 zero one two three four five six seven eight nine
   BCoverage: 14 hyphensuperior
  1
-  SeqLookup: 0 "Single Substitution lookup 34"
+  SeqLookup: 0 "Single Substitution lookup 33"
 EndFPST
 ChainSub2: coverage "resolutions contextual 2" 0 0 0 1
  1 1 0
   Coverage: 5 equal
   BCoverage: 139 zerosubscript onesubscript twosubscript threesubscript foursubscript fivesubscript sixsubscript sevensubscript eightsubscript ninesubscript
  1
-  SeqLookup: 0 "Multiple Substitution lookup 33"
+  SeqLookup: 0 "Multiple Substitution lookup 32"
 EndFPST
 ChainSub2: coverage "resolutions contextual 1" 0 0 0 1
  1 1 0
   Coverage: 6 hyphen
   BCoverage: 139 zerosubscript onesubscript twosubscript threesubscript foursubscript fivesubscript sixsubscript sevensubscript eightsubscript ninesubscript
  1
-  SeqLookup: 0 "Multiple Substitution lookup 32"
+  SeqLookup: 0 "Multiple Substitution lookup 31"
 EndFPST
 ChainSub2: coverage "resolutions contextual 0" 0 0 0 1
  1 1 0
   Coverage: 6 hyphen
   BCoverage: 129 zerosuperior onesuperior twosuperior threesuperior foursuperior fivesuperior sixsuperior sevensuperior eightsuperior ninesuperior
  1
-  SeqLookup: 0 "Single Substitution lookup 31"
+  SeqLookup: 0 "Single Substitution lookup 30"
 EndFPST
 ChainSub2: coverage "alterations contextual 4" 0 0 0 1
  1 2 0
   Coverage: 27 b h numbersign doubleflat x
   BCoverage: 28 m M a A j degree degreeslash
-  BCoverage: 103 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
+  BCoverage: 311 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z oneromanupper tworomanupper threeromanupper fourromanupper fiveromanupper sixromanupper sevenromanupper oneromanlower tworomanlower threeromanlower fourromanlower fiveromanlower sixromanlower sevenromanlower
  1
-  SeqLookup: 0 "Single Substitution lookup 29"
+  SeqLookup: 0 "Single Substitution lookup 28"
 EndFPST
 ChainSub2: coverage "alterations contextual 3" 0 0 0 1
  1 1 0
   Coverage: 27 b h numbersign doubleflat x
-  BCoverage: 103 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
+  BCoverage: 311 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z oneromanupper tworomanupper threeromanupper fourromanupper fiveromanupper sixromanupper sevenromanupper oneromanlower tworomanlower threeromanlower fourromanlower fiveromanlower sixromanlower sevenromanlower
  1
-  SeqLookup: 0 "Single Substitution lookup 28"
+  SeqLookup: 0 "Single Substitution lookup 27"
 EndFPST
 ChainSub2: coverage "alterations contextual 2" 0 0 0 1
  1 1 0
   Coverage: 49 zero one two three four five six seven eight nine
   BCoverage: 81 flatsuperior naturalsuperior sharpsuperior doubleflatsuperior doublesharpsuperior
  1
-  SeqLookup: 0 "Single Substitution lookup 27"
+  SeqLookup: 0 "Single Substitution lookup 26"
 EndFPST
 ChainSub2: coverage "alterations contextual 1" 0 0 0 1
  1 1 0
   Coverage: 27 b h numbersign doubleflat x
   BCoverage: 139 zerosubscript onesubscript twosubscript threesubscript foursubscript fivesubscript sixsubscript sevensubscript eightsubscript ninesubscript
  1
-  SeqLookup: 0 "Single Substitution lookup 26"
+  SeqLookup: 0 "Single Substitution lookup 25"
 EndFPST
 ChainSub2: coverage "alterations contextual 0" 0 0 0 1
  1 1 0
   Coverage: 27 b h numbersign doubleflat x
   BCoverage: 129 zerosuperior onesuperior twosuperior threesuperior foursuperior fivesuperior sixsuperior sevensuperior eightsuperior ninesuperior
  1
-  SeqLookup: 0 "Single Substitution lookup 25"
-EndFPST
-ChainSub2: coverage "inversion_2 contextual 2" 0 0 0 1
- 1 1 0
-  Coverage: 49 zero one two three four five six seven eight nine
-  BCoverage: 5 equal
- 1
-  SeqLookup: 0 "Single Substitution lookup 23"
+  SeqLookup: 0 "Single Substitution lookup 24"
 EndFPST
 ChainSub2: coverage "inversion_2 contextual 1" 0 0 0 1
  1 1 0
   Coverage: 49 zero one two three four five six seven eight nine
-  BCoverage: 6 hyphen
+  BCoverage: 12 hyphen equal
  1
   SeqLookup: 0 "Single Substitution lookup 22"
 EndFPST
@@ -213,39 +297,46 @@ ChainSub2: coverage "inversion_3 subtable" 0 0 0 1
  1
   SeqLookup: 0 "Single Substitution lookup 19"
 EndFPST
-ChainSub2: coverage "intervals_2 subtable" 0 0 0 1
+ChainSub2: coverage "intervals_2 contextual 1" 0 0 0 1
  1 1 0
   Coverage: 49 zero one two three four five six seven eight nine
   BCoverage: 11 onesuperior
  1
   SeqLookup: 0 "Single Substitution lookup 17"
 EndFPST
+ChainSub2: coverage "intervals_2 contextual 0" 0 0 0 1
+ 1 2 0
+  Coverage: 49 zero one two three four five six seven eight nine
+  BCoverage: 11 onesuperior
+  BCoverage: 11 onesuperior
+ 0
+EndFPST
 ChainSub2: coverage "intervals_1 contextual 1" 0 0 0 1
  1 2 0
   Coverage: 49 zero one two three four five six seven eight nine
   BCoverage: 28 m M a A j degree degreeslash
-  BCoverage: 103 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
+  BCoverage: 311 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z oneromanupper tworomanupper threeromanupper fourromanupper fiveromanupper sixromanupper sevenromanupper oneromanlower tworomanlower threeromanlower fourromanlower fiveromanlower sixromanlower sevenromanlower
  1
   SeqLookup: 0 "Single Substitution lookup 15"
 EndFPST
 ChainSub2: coverage "intervals_1 contextual 0" 0 0 0 1
  1 1 0
   Coverage: 49 zero one two three four five six seven eight nine
-  BCoverage: 103 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
+  BCoverage: 311 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z oneromanupper tworomanupper threeromanupper fourromanupper fiveromanupper sixromanupper sevenromanupper oneromanlower tworomanlower threeromanlower fourromanlower fiveromanlower sixromanlower sevenromanlower
  1
   SeqLookup: 0 "Single Substitution lookup 14"
 EndFPST
 ChainSub2: coverage "trailing contextual 1" 0 0 0 1
  1 1 0
   Coverage: 4 zero
-  BCoverage: 103 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
+  BCoverage: 311 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z oneromanupper tworomanupper threeromanupper fourromanupper fiveromanupper sixromanupper sevenromanupper oneromanlower tworomanlower threeromanlower fourromanlower fiveromanlower sixromanlower sevenromanlower
  1
   SeqLookup: 0 "Single Substitution lookup 12"
 EndFPST
 ChainSub2: coverage "trailing contextual 0" 0 0 0 1
  1 1 0
   Coverage: 1 o
-  BCoverage: 103 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
+  BCoverage: 311 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z oneromanupper tworomanupper threeromanupper fourromanupper fiveromanupper sixromanupper sevenromanupper oneromanlower tworomanlower threeromanlower fourromanlower fiveromanlower sixromanlower sevenromanlower
  1
   SeqLookup: 0 "Single Substitution lookup 11"
 EndFPST
@@ -259,7 +350,7 @@ EndFPST
 ChainSub2: coverage "leading contextual 0" 0 0 0 1
  1 0 1
   Coverage: 27 b h numbersign doubleflat x
-  FCoverage: 103 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
+  FCoverage: 311 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z oneromanupper tworomanupper threeromanupper fourromanupper fiveromanupper sixromanupper sevenromanupper oneromanlower tworomanlower threeromanlower fourromanlower fiveromanlower sixromanlower sevenromanlower
  1
   SeqLookup: 0 "Single Substitution lookup 8"
 EndFPST
@@ -284,7 +375,7 @@ ChainSub2: coverage "liga_symbols contextual 3" 0 0 0 1
   Coverage: 1 b
   Coverage: 1 b
   BCoverage: 28 m M a A j degree degreeslash
-  BCoverage: 103 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
+  BCoverage: 311 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z oneromanupper tworomanupper threeromanupper fourromanupper fiveromanupper sixromanupper sevenromanupper oneromanlower tworomanlower threeromanlower fourromanlower fiveromanlower sixromanlower sevenromanlower
  1
   SeqLookup: 0 "Ligature Substitution lookup 4"
 EndFPST
@@ -292,7 +383,7 @@ ChainSub2: coverage "liga_symbols contextual 2" 0 0 0 1
  2 1 0
   Coverage: 1 b
   Coverage: 1 b
-  BCoverage: 103 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
+  BCoverage: 311 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z oneromanupper tworomanupper threeromanupper fourromanupper fiveromanupper sixromanupper sevenromanupper oneromanlower tworomanlower threeromanlower fourromanlower fiveromanlower sixromanlower sevenromanlower
  1
   SeqLookup: 0 "Ligature Substitution lookup 3"
 EndFPST
@@ -308,7 +399,7 @@ ChainSub2: coverage "liga_symbols contextual 0" 0 0 0 1
  2 0 1
   Coverage: 1 b
   Coverage: 1 b
-  FCoverage: 103 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
+  FCoverage: 311 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z oneromanupper tworomanupper threeromanupper fourromanupper fiveromanupper sixromanupper sevenromanupper oneromanlower tworomanlower threeromanlower fourromanlower fiveromanlower sixromanlower sevenromanlower
  1
   SeqLookup: 0 "Ligature Substitution lookup 1"
 EndFPST
@@ -1013,12 +1104,12 @@ ShortTable: maxp 16
   5
   1
 EndShort
-LangName: 1033 "" "" "Regular" "" "" "Version 2.000" "" "" "" "" "" "https://masteringmusescore.com" "" "Copyright (c) 1994-2019, Marc Sabatella (https://masteringmusescore.com), SIL International (http://www.sil.org/) with Reserved Font Name +ACIA-Campania+ACIA.+AA0ACgANAAoA-This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL+AA0ACgANAAoADQAK------------------------------------------------------------+AA0ACgAA-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007+AA0ACgAA------------------------------------------------------------+AA0ACgANAAoA-PREAMBLE+AA0ACgAA-The goals of the Open Font License (OFL) are to stimulate worldwide development of collaborative font projects, to support the font creation efforts of academic and linguistic communities, and to provide a free and open framework in which fonts may be shared and improved in partnership with others.+AA0ACgANAAoA-The OFL allows the licensed fonts to be used, studied, modified and redistributed freely as long as they are not sold by themselves. The fonts, including any derivative works, can be bundled, embedded, redistributed and/or sold with any software provided that any reserved names are not used by derivative works. The fonts and derivatives, however, cannot be released under any other type of license. The requirement for fonts to remain under this license does not apply to any document created using the fonts or their derivatives.+AA0ACgANAAoA-DEFINITIONS+AA0ACgAi-Font Software+ACIA refers to the set of files released by the Copyright Holder(s) under this license and clearly marked as such. This may include source files, build scripts and documentation.+AA0ACgANAAoAIgAA-Reserved Font Name+ACIA refers to any names specified as such after the copyright statement(s).+AA0ACgANAAoAIgAA-Original Version+ACIA refers to the collection of Font Software components as distributed by the Copyright Holder(s).+AA0ACgANAAoAIgAA-Modified Version+ACIA refers to any derivative made by adding to, deleting, or substituting -- in part or in whole -- any of the components of the Original Version, by changing formats or by porting the Font Software to a new environment.+AA0ACgANAAoAIgAA-Author+ACIA refers to any designer, engineer, programmer, technical writer or other person who contributed to the Font Software.+AA0ACgANAAoA-PERMISSION & CONDITIONS+AA0ACgAA-Permission is hereby granted, free of charge, to any person obtaining a copy of the Font Software, to use, study, copy, merge, embed, modify, redistribute, and sell modified and unmodified copies of the Font Software, subject to the following conditions:+AA0ACgANAAoA-1) Neither the Font Software nor any of its individual components, in Original or Modified Versions, may be sold by itself.+AA0ACgANAAoA-2) Original or Modified Versions of the Font Software may be bundled, redistributed and/or sold with any software, provided that each copy contains the above copyright notice and this license. These can be included either as stand-alone text files, human-readable headers or in the appropriate machine-readable metadata fields within text or binary files as long as those fields can be easily viewed by the user.+AA0ACgANAAoA-3) No Modified Version of the Font Software may use the Reserved Font Name(s) unless explicit written permission is granted by the corresponding Copyright Holder. This restriction only applies to the primary font name as presented to the users.+AA0ACgANAAoA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font Software shall not be used to promote, endorse or advertise any Modified Version, except to acknowledge the contribution(s) of the Copyright Holder(s) and the Author(s) or with their explicit written permission.+AA0ACgANAAoA-5) The Font Software, modified or unmodified, in part or in whole, must be distributed entirely under this license, and must not be distributed under any other license. The requirement for fonts to remain under this license does not apply to any document created using the Font Software.+AA0ACgANAAoA-TERMINATION+AA0ACgAA-This license becomes null and void if any of the above conditions are not met.+AA0ACgANAAoA-DISCLAIMER+AA0ACgAA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE FONT SOFTWARE." "http://scripts.sil.org/OFL"
+LangName: 1033 "" "" "Regular" "" "" "Version 2.002" "" "" "" "" "" "https://masteringmusescore.com" "" "Copyright (c) 1994-2019, Marc Sabatella (https://masteringmusescore.com), SIL International (http://www.sil.org/) with Reserved Font Name +ACIA-Campania+ACIA.+AA0ACgANAAoA-This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL+AA0ACgANAAoADQAK------------------------------------------------------------+AA0ACgAA-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007+AA0ACgAA------------------------------------------------------------+AA0ACgANAAoA-PREAMBLE+AA0ACgAA-The goals of the Open Font License (OFL) are to stimulate worldwide development of collaborative font projects, to support the font creation efforts of academic and linguistic communities, and to provide a free and open framework in which fonts may be shared and improved in partnership with others.+AA0ACgANAAoA-The OFL allows the licensed fonts to be used, studied, modified and redistributed freely as long as they are not sold by themselves. The fonts, including any derivative works, can be bundled, embedded, redistributed and/or sold with any software provided that any reserved names are not used by derivative works. The fonts and derivatives, however, cannot be released under any other type of license. The requirement for fonts to remain under this license does not apply to any document created using the fonts or their derivatives.+AA0ACgANAAoA-DEFINITIONS+AA0ACgAi-Font Software+ACIA refers to the set of files released by the Copyright Holder(s) under this license and clearly marked as such. This may include source files, build scripts and documentation.+AA0ACgANAAoAIgAA-Reserved Font Name+ACIA refers to any names specified as such after the copyright statement(s).+AA0ACgANAAoAIgAA-Original Version+ACIA refers to the collection of Font Software components as distributed by the Copyright Holder(s).+AA0ACgANAAoAIgAA-Modified Version+ACIA refers to any derivative made by adding to, deleting, or substituting -- in part or in whole -- any of the components of the Original Version, by changing formats or by porting the Font Software to a new environment.+AA0ACgANAAoAIgAA-Author+ACIA refers to any designer, engineer, programmer, technical writer or other person who contributed to the Font Software.+AA0ACgANAAoA-PERMISSION & CONDITIONS+AA0ACgAA-Permission is hereby granted, free of charge, to any person obtaining a copy of the Font Software, to use, study, copy, merge, embed, modify, redistribute, and sell modified and unmodified copies of the Font Software, subject to the following conditions:+AA0ACgANAAoA-1) Neither the Font Software nor any of its individual components, in Original or Modified Versions, may be sold by itself.+AA0ACgANAAoA-2) Original or Modified Versions of the Font Software may be bundled, redistributed and/or sold with any software, provided that each copy contains the above copyright notice and this license. These can be included either as stand-alone text files, human-readable headers or in the appropriate machine-readable metadata fields within text or binary files as long as those fields can be easily viewed by the user.+AA0ACgANAAoA-3) No Modified Version of the Font Software may use the Reserved Font Name(s) unless explicit written permission is granted by the corresponding Copyright Holder. This restriction only applies to the primary font name as presented to the users.+AA0ACgANAAoA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font Software shall not be used to promote, endorse or advertise any Modified Version, except to acknowledge the contribution(s) of the Copyright Holder(s) and the Author(s) or with their explicit written permission.+AA0ACgANAAoA-5) The Font Software, modified or unmodified, in part or in whole, must be distributed entirely under this license, and must not be distributed under any other license. The requirement for fonts to remain under this license does not apply to any document created using the Font Software.+AA0ACgANAAoA-TERMINATION+AA0ACgAA-This license becomes null and void if any of the above conditions are not met.+AA0ACgANAAoA-DISCLAIMER+AA0ACgAA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE FONT SOFTWARE." "http://scripts.sil.org/OFL"
 GaspTable: 4 8 2 17 1 32 3 65535 2 0
-OtfFeatName: 'ss06' 1033 "Show invisible characters"
-OtfFeatName: 'ss05' 1033 "Slant italic specials"
-OtfFeatName: 'ss04' 1033 "Barred-bowl forms"
 OtfFeatName: 'ss01' 1033 "Literacy alternates"
+OtfFeatName: 'ss04' 1033 "Barred-bowl forms"
+OtfFeatName: 'ss05' 1033 "Slant italic specials"
+OtfFeatName: 'ss06' 1033 "Show invisible characters"
 Encoding: UnicodeFull
 Compacted: 1
 UnicodeInterp: none
@@ -1153,10 +1244,10 @@ SplineSet
  715 427 l 1,4,-1
 EndSplineSet
 Validated: 1
-Substitution2: "Single Substitution lookup 29 subtable" sharpsuperior
 Substitution2: "Single Substitution lookup 28 subtable" sharpsuperior
-Substitution2: "Single Substitution lookup 26 subtable" sharpsuperior
+Substitution2: "Single Substitution lookup 27 subtable" sharpsuperior
 Substitution2: "Single Substitution lookup 25 subtable" sharpsuperior
+Substitution2: "Single Substitution lookup 24 subtable" sharpsuperior
 Substitution2: "Single Substitution lookup 9 subtable" sharp
 Substitution2: "Single Substitution lookup 8 subtable" sharp
 EndChar
@@ -1718,8 +1809,8 @@ SplineSet
  83 382 l 1,0,-1
 EndSplineSet
 Validated: 1
-MultipleSubs2: "Multiple Substitution lookup 32 subtable" hyphensuperior hyphensubscript
-Substitution2: "Single Substitution lookup 31 subtable" hyphensuperior
+MultipleSubs2: "Multiple Substitution lookup 31 subtable" hyphensuperior hyphensubscript
+Substitution2: "Single Substitution lookup 30 subtable" hyphensuperior
 EndChar
 
 StartChar: period
@@ -1819,10 +1910,9 @@ SplineSet
  756 538 756 538 756 735 c 0,24,25
 EndSplineSet
 Validated: 1
-Substitution2: "Single Substitution lookup 35 subtable" zerosuperior
 Substitution2: "Single Substitution lookup 34 subtable" zerosuperior
-Substitution2: "Single Substitution lookup 27 subtable" zerosuperior
-Substitution2: "Single Substitution lookup 23 subtable" zerosuperior
+Substitution2: "Single Substitution lookup 33 subtable" zerosuperior
+Substitution2: "Single Substitution lookup 26 subtable" zerosuperior
 Substitution2: "Single Substitution lookup 22 subtable" zerosuperior
 Substitution2: "Single Substitution lookup 21 subtable" zerosubscript
 Substitution2: "Single Substitution lookup 19 subtable" zerosuperior
@@ -1869,10 +1959,9 @@ SplineSet
  264 0 l 1,0,-1
 EndSplineSet
 Validated: 1
-Substitution2: "Single Substitution lookup 35 subtable" onesuperior
 Substitution2: "Single Substitution lookup 34 subtable" onesuperior
-Substitution2: "Single Substitution lookup 27 subtable" onesuperior
-Substitution2: "Single Substitution lookup 23 subtable" onesuperior
+Substitution2: "Single Substitution lookup 33 subtable" onesuperior
+Substitution2: "Single Substitution lookup 26 subtable" onesuperior
 Substitution2: "Single Substitution lookup 22 subtable" onesuperior
 Substitution2: "Single Substitution lookup 21 subtable" onesubscript
 Substitution2: "Single Substitution lookup 19 subtable" onesuperior
@@ -1934,10 +2023,9 @@ SplineSet
  844 0 l 1,0,-1
 EndSplineSet
 Validated: 1
-Substitution2: "Single Substitution lookup 35 subtable" twosuperior
 Substitution2: "Single Substitution lookup 34 subtable" twosuperior
-Substitution2: "Single Substitution lookup 27 subtable" twosuperior
-Substitution2: "Single Substitution lookup 23 subtable" twosuperior
+Substitution2: "Single Substitution lookup 33 subtable" twosuperior
+Substitution2: "Single Substitution lookup 26 subtable" twosuperior
 Substitution2: "Single Substitution lookup 22 subtable" twosuperior
 Substitution2: "Single Substitution lookup 21 subtable" twosubscript
 Substitution2: "Single Substitution lookup 19 subtable" twosuperior
@@ -2020,10 +2108,9 @@ SplineSet
  856 535 856 535 856 449 c 0,0,1
 EndSplineSet
 Validated: 1
-Substitution2: "Single Substitution lookup 35 subtable" threesuperior
 Substitution2: "Single Substitution lookup 34 subtable" threesuperior
-Substitution2: "Single Substitution lookup 27 subtable" threesuperior
-Substitution2: "Single Substitution lookup 23 subtable" threesuperior
+Substitution2: "Single Substitution lookup 33 subtable" threesuperior
+Substitution2: "Single Substitution lookup 26 subtable" threesuperior
 Substitution2: "Single Substitution lookup 22 subtable" threesuperior
 Substitution2: "Single Substitution lookup 21 subtable" threesubscript
 Substitution2: "Single Substitution lookup 19 subtable" threesuperior
@@ -2063,10 +2150,9 @@ SplineSet
  607 1175 l 1,11,-1
 EndSplineSet
 Validated: 1
-Substitution2: "Single Substitution lookup 35 subtable" foursuperior
 Substitution2: "Single Substitution lookup 34 subtable" foursuperior
-Substitution2: "Single Substitution lookup 27 subtable" foursuperior
-Substitution2: "Single Substitution lookup 23 subtable" foursuperior
+Substitution2: "Single Substitution lookup 33 subtable" foursuperior
+Substitution2: "Single Substitution lookup 26 subtable" foursuperior
 Substitution2: "Single Substitution lookup 22 subtable" foursuperior
 Substitution2: "Single Substitution lookup 21 subtable" foursubscript
 Substitution2: "Single Substitution lookup 19 subtable" foursuperior
@@ -2132,10 +2218,9 @@ SplineSet
  812 1187 l 1,0,-1
 EndSplineSet
 Validated: 1
-Substitution2: "Single Substitution lookup 35 subtable" fivesuperior
 Substitution2: "Single Substitution lookup 34 subtable" fivesuperior
-Substitution2: "Single Substitution lookup 27 subtable" fivesuperior
-Substitution2: "Single Substitution lookup 23 subtable" fivesuperior
+Substitution2: "Single Substitution lookup 33 subtable" fivesuperior
+Substitution2: "Single Substitution lookup 26 subtable" fivesuperior
 Substitution2: "Single Substitution lookup 22 subtable" fivesuperior
 Substitution2: "Single Substitution lookup 21 subtable" fivesubscript
 Substitution2: "Single Substitution lookup 19 subtable" fivesuperior
@@ -2212,10 +2297,9 @@ SplineSet
  767 272 767 272 767 348 c 0,39,40
 EndSplineSet
 Validated: 33
-Substitution2: "Single Substitution lookup 35 subtable" sixsuperior
 Substitution2: "Single Substitution lookup 34 subtable" sixsuperior
-Substitution2: "Single Substitution lookup 27 subtable" sixsuperior
-Substitution2: "Single Substitution lookup 23 subtable" sixsuperior
+Substitution2: "Single Substitution lookup 33 subtable" sixsuperior
+Substitution2: "Single Substitution lookup 26 subtable" sixsuperior
 Substitution2: "Single Substitution lookup 22 subtable" sixsuperior
 Substitution2: "Single Substitution lookup 21 subtable" sixsubscript
 Substitution2: "Single Substitution lookup 19 subtable" sixsuperior
@@ -2252,10 +2336,9 @@ SplineSet
  479 -30 l 1,0,-1
 EndSplineSet
 Validated: 1
-Substitution2: "Single Substitution lookup 35 subtable" sevensuperior
 Substitution2: "Single Substitution lookup 34 subtable" sevensuperior
-Substitution2: "Single Substitution lookup 27 subtable" sevensuperior
-Substitution2: "Single Substitution lookup 23 subtable" sevensuperior
+Substitution2: "Single Substitution lookup 33 subtable" sevensuperior
+Substitution2: "Single Substitution lookup 26 subtable" sevensuperior
 Substitution2: "Single Substitution lookup 22 subtable" sevensuperior
 Substitution2: "Single Substitution lookup 21 subtable" sevensubscript
 Substitution2: "Single Substitution lookup 19 subtable" sevensuperior
@@ -2352,10 +2435,9 @@ SplineSet
  765 191 765 191 765 241 c 0,64,65
 EndSplineSet
 Validated: 1
-Substitution2: "Single Substitution lookup 35 subtable" eightsuperior
 Substitution2: "Single Substitution lookup 34 subtable" eightsuperior
-Substitution2: "Single Substitution lookup 27 subtable" eightsuperior
-Substitution2: "Single Substitution lookup 23 subtable" eightsuperior
+Substitution2: "Single Substitution lookup 33 subtable" eightsuperior
+Substitution2: "Single Substitution lookup 26 subtable" eightsuperior
 Substitution2: "Single Substitution lookup 22 subtable" eightsuperior
 Substitution2: "Single Substitution lookup 21 subtable" eightsubscript
 Substitution2: "Single Substitution lookup 19 subtable" eightsuperior
@@ -2430,10 +2512,9 @@ SplineSet
  747 839 747 839 747 877 c 0,39,40
 EndSplineSet
 Validated: 33
-Substitution2: "Single Substitution lookup 35 subtable" ninesuperior
 Substitution2: "Single Substitution lookup 34 subtable" ninesuperior
-Substitution2: "Single Substitution lookup 27 subtable" ninesuperior
-Substitution2: "Single Substitution lookup 23 subtable" ninesuperior
+Substitution2: "Single Substitution lookup 33 subtable" ninesuperior
+Substitution2: "Single Substitution lookup 26 subtable" ninesuperior
 Substitution2: "Single Substitution lookup 22 subtable" ninesuperior
 Substitution2: "Single Substitution lookup 21 subtable" ninesubscript
 Substitution2: "Single Substitution lookup 19 subtable" ninesuperior
@@ -2581,7 +2662,7 @@ SplineSet
  395 709 l 1,4,-1
 EndSplineSet
 Validated: 1
-MultipleSubs2: "Multiple Substitution lookup 33 subtable" hyphensuperior hyphensubscript
+MultipleSubs2: "Multiple Substitution lookup 32 subtable" hyphensuperior hyphensubscript
 EndChar
 
 StartChar: greater
@@ -4697,10 +4778,10 @@ SplineSet
  781 340 781 340 781 438 c 0,28,29
 EndSplineSet
 Validated: 1
-Substitution2: "Single Substitution lookup 29 subtable" flatsuperior
 Substitution2: "Single Substitution lookup 28 subtable" flatsuperior
-Substitution2: "Single Substitution lookup 26 subtable" flatsuperior
+Substitution2: "Single Substitution lookup 27 subtable" flatsuperior
 Substitution2: "Single Substitution lookup 25 subtable" flatsuperior
+Substitution2: "Single Substitution lookup 24 subtable" flatsuperior
 Substitution2: "Single Substitution lookup 9 subtable" flat
 Substitution2: "Single Substitution lookup 8 subtable" flat
 EndChar
@@ -5133,10 +5214,10 @@ SplineSet
  562 0 l 1,0,-1
 EndSplineSet
 Validated: 1
-Substitution2: "Single Substitution lookup 29 subtable" naturalsuperior
 Substitution2: "Single Substitution lookup 28 subtable" naturalsuperior
-Substitution2: "Single Substitution lookup 26 subtable" naturalsuperior
+Substitution2: "Single Substitution lookup 27 subtable" naturalsuperior
 Substitution2: "Single Substitution lookup 25 subtable" naturalsuperior
+Substitution2: "Single Substitution lookup 24 subtable" naturalsuperior
 Substitution2: "Single Substitution lookup 9 subtable" natural
 Substitution2: "Single Substitution lookup 8 subtable" natural
 EndChar
@@ -6156,10 +6237,10 @@ SplineSet
  568 0 l 1,0,-1
 EndSplineSet
 Validated: 1
-Substitution2: "Single Substitution lookup 29 subtable" doublesharpsuperior
 Substitution2: "Single Substitution lookup 28 subtable" doublesharpsuperior
-Substitution2: "Single Substitution lookup 26 subtable" doublesharpsuperior
+Substitution2: "Single Substitution lookup 27 subtable" doublesharpsuperior
 Substitution2: "Single Substitution lookup 25 subtable" doublesharpsuperior
+Substitution2: "Single Substitution lookup 24 subtable" doublesharpsuperior
 Substitution2: "Single Substitution lookup 9 subtable" doublesharp
 Substitution2: "Single Substitution lookup 8 subtable" doublesharp
 EndChar
@@ -6461,26 +6542,27 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-440 1444 m 128,-1,1
- 598 1444 598 1444 708 1333.5 c 0,2,3
- 818 1224 818 1224 818 1064 c 0,4,5
- 818 906 818 906 706.5 797 c 128,-1,6
- 595 688 595 688 435 688 c 0,7,8
- 334 688 334 688 248 739 c 128,-1,9
- 162 790 162 790 112 876.5 c 128,-1,10
- 62 963 62 963 62 1066 c 0,11,12
- 62 1224 62 1224 172 1334 c 128,-1,0
- 282 1444 282 1444 440 1444 c 128,-1,1
-440 1318 m 0,13,14
- 342 1318 342 1318 271 1243.5 c 128,-1,15
- 200 1169 200 1169 200 1066 c 128,-1,16
- 200 963 200 963 270.5 888.5 c 0,17,18
- 342 814 342 814 438 814 c 0,19,20
- 538 814 538 814 609 887.5 c 128,-1,21
- 680 961 680 961 680 1066 c 0,22,23
- 680 1168 680 1168 608 1243 c 128,-1,24
- 536 1318 536 1318 440 1318 c 0,13,14
+440 1439 m 128,-1,1
+ 595.92236039 1439 595.92236039 1439 704.472528854 1329.95642168 c 0,2,3
+ 813 1221.92225722 813 1221.92225722 813 1064 c 0,4,5
+ 813 908.104352748 813 908.104352748 703.004776156 800.575389528 c 128,-1,6
+ 592.96206118 693 592.96206118 693 435 693 c 0,7,8
+ 335.371078321 693 335.371078321 693 250.550382586 743.300645145 c 128,-1,9
+ 165.674692336 793.633903317 165.674692336 793.633903317 116.328843555 879.002221708 c 128,-1,10
+ 67 964.341121058 67 964.341121058 67 1066 c 0,11,12
+ 67 1221.92893219 67 1221.92893219 175.535533906 1330.46446609 c 128,-1,0
+ 284.071067812 1439 284.071067812 1439 440 1439 c 128,-1,1
+440 1323 m 0,13,14
+ 339.858134303 1323 339.858134303 1323 267.380465943 1246.94948883 c 128,-1,15
+ 195 1171.00097175 195 1171.00097175 195 1066 c 128,-1,16
+ 195 961.009436091 195 961.009436091 266.892579616 885.037844866 c 0,17,18
+ 339.868497843 809 339.868497843 809 438 809 c 0,19,20
+ 540.121919785 809 540.121919785 809 612.59616414 884.026154368 c 128,-1,21
+ 685 958.979421068 685 958.979421068 685 1066 c 0,22,23
+ 685 1170.01155144 685 1170.01155144 611.606936605 1246.46265914 c 128,-1,24
+ 538.13108938 1323 538.13108938 1323 440 1323 c 0,13,14
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: oneromanlower
@@ -6794,6 +6876,11 @@ SplineSet
  686 437 686 437 686 340 c 0,18,19
 EndSplineSet
 Validated: 1
+Position2: "Single Positioning lookup 13 subtable" dx=-587 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 12 subtable" dx=-1324 dy=0 dh=-737 dv=0
+Position2: "Single Positioning lookup 11 subtable" dx=-1174 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 10 subtable" dx=-587 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 9 subtable" dx=-1174 dy=0 dh=-587 dv=0
 EndChar
 
 StartChar: zerosuperior
@@ -6843,7 +6930,13 @@ SplineSet
  686 1317 686 1317 686 1220 c 0,18,19
 EndSplineSet
 Validated: 1
-Position2: "Single Positioning lookup 2 subtable" dx=0 dy=875 dh=0 dv=0
+Position2: "Single Positioning lookup 13 subtable" dx=-587 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 12 subtable" dx=-1324 dy=0 dh=-737 dv=0
+Position2: "Single Positioning lookup 11 subtable" dx=-1174 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 10 subtable" dx=-587 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 9 subtable" dx=-1174 dy=0 dh=-587 dv=0
+Position2: "Single Positioning lookup 6 subtable" dx=0 dy=875 dh=0 dv=0
+Position2: "Single Positioning lookup 5 subtable" dx=0 dy=875 dh=0 dv=0
 EndChar
 
 StartChar: onesubscript
@@ -6877,6 +6970,11 @@ SplineSet
  193 -73 l 1,0,-1
 EndSplineSet
 Validated: 33
+Position2: "Single Positioning lookup 13 subtable" dx=-587 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 12 subtable" dx=-1324 dy=0 dh=-737 dv=0
+Position2: "Single Positioning lookup 11 subtable" dx=-1174 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 10 subtable" dx=-587 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 9 subtable" dx=-1174 dy=0 dh=-587 dv=0
 EndChar
 
 StartChar: onesuperior
@@ -6915,6 +7013,13 @@ SplineSet
  193 806 l 1,0,-1
 EndSplineSet
 Validated: 33
+Position2: "Single Positioning lookup 13 subtable" dx=-587 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 12 subtable" dx=-1324 dy=0 dh=-737 dv=0
+Position2: "Single Positioning lookup 11 subtable" dx=-1174 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 10 subtable" dx=-587 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 9 subtable" dx=-1174 dy=0 dh=-587 dv=0
+Position2: "Single Positioning lookup 4 subtable" dx=0 dy=875 dh=0 dv=0
+Position2: "Single Positioning lookup 3 subtable" dx=0 dy=875 dh=0 dv=0
 Position2: "Single Positioning lookup 2 subtable" dx=0 dy=875 dh=0 dv=0
 EndChar
 
@@ -6964,6 +7069,11 @@ SplineSet
  621.5 -73 l 1,0,-1
 EndSplineSet
 Validated: 1
+Position2: "Single Positioning lookup 13 subtable" dx=-587 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 12 subtable" dx=-1324 dy=0 dh=-737 dv=0
+Position2: "Single Positioning lookup 11 subtable" dx=-1174 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 10 subtable" dx=-587 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 9 subtable" dx=-1174 dy=0 dh=-587 dv=0
 EndChar
 
 StartChar: twosuperior
@@ -7018,7 +7128,13 @@ SplineSet
  621.5 806 l 1,0,-1
 EndSplineSet
 Validated: 1
-Position2: "Single Positioning lookup 2 subtable" dx=0 dy=875 dh=0 dv=0
+Position2: "Single Positioning lookup 13 subtable" dx=-587 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 12 subtable" dx=-1324 dy=0 dh=-737 dv=0
+Position2: "Single Positioning lookup 11 subtable" dx=-1174 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 10 subtable" dx=-587 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 9 subtable" dx=-1174 dy=0 dh=-587 dv=0
+Position2: "Single Positioning lookup 6 subtable" dx=0 dy=875 dh=0 dv=0
+Position2: "Single Positioning lookup 5 subtable" dx=0 dy=875 dh=0 dv=0
 EndChar
 
 StartChar: threesubscript
@@ -7082,6 +7198,11 @@ SplineSet
  645.5 248 645.5 248 645.5 196 c 0,0,1
 EndSplineSet
 Validated: 1
+Position2: "Single Positioning lookup 13 subtable" dx=-587 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 12 subtable" dx=-1324 dy=0 dh=-737 dv=0
+Position2: "Single Positioning lookup 11 subtable" dx=-1174 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 10 subtable" dx=-587 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 9 subtable" dx=-1174 dy=0 dh=-587 dv=0
 EndChar
 
 StartChar: threesuperior
@@ -7149,7 +7270,13 @@ SplineSet
  645.5 1127 645.5 1127 645.5 1076 c 0,0,1
 EndSplineSet
 Validated: 1
-Position2: "Single Positioning lookup 2 subtable" dx=0 dy=875 dh=0 dv=0
+Position2: "Single Positioning lookup 13 subtable" dx=-587 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 12 subtable" dx=-1324 dy=0 dh=-737 dv=0
+Position2: "Single Positioning lookup 11 subtable" dx=-1174 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 10 subtable" dx=-587 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 9 subtable" dx=-1174 dy=0 dh=-587 dv=0
+Position2: "Single Positioning lookup 6 subtable" dx=0 dy=875 dh=0 dv=0
+Position2: "Single Positioning lookup 5 subtable" dx=0 dy=875 dh=0 dv=0
 EndChar
 
 StartChar: foursubscript
@@ -7178,6 +7305,11 @@ SplineSet
  570.5 141 l 1,3,-1
 EndSplineSet
 Validated: 1
+Position2: "Single Positioning lookup 13 subtable" dx=-587 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 12 subtable" dx=-1324 dy=0 dh=-737 dv=0
+Position2: "Single Positioning lookup 11 subtable" dx=-1174 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 10 subtable" dx=-587 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 9 subtable" dx=-1174 dy=0 dh=-587 dv=0
 EndChar
 
 StartChar: foursuperior
@@ -7211,7 +7343,13 @@ SplineSet
  570.5 1021 l 1,3,-1
 EndSplineSet
 Validated: 1
-Position2: "Single Positioning lookup 2 subtable" dx=0 dy=875 dh=0 dv=0
+Position2: "Single Positioning lookup 13 subtable" dx=-587 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 12 subtable" dx=-1324 dy=0 dh=-737 dv=0
+Position2: "Single Positioning lookup 11 subtable" dx=-1174 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 10 subtable" dx=-587 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 9 subtable" dx=-1174 dy=0 dh=-587 dv=0
+Position2: "Single Positioning lookup 6 subtable" dx=0 dy=875 dh=0 dv=0
+Position2: "Single Positioning lookup 5 subtable" dx=0 dy=875 dh=0 dv=0
 EndChar
 
 StartChar: fivesubscript
@@ -7264,6 +7402,11 @@ SplineSet
  595.5 638 l 1,0,-1
 EndSplineSet
 Validated: 1
+Position2: "Single Positioning lookup 13 subtable" dx=-587 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 12 subtable" dx=-1324 dy=0 dh=-737 dv=0
+Position2: "Single Positioning lookup 11 subtable" dx=-1174 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 10 subtable" dx=-587 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 9 subtable" dx=-1174 dy=0 dh=-587 dv=0
 EndChar
 
 StartChar: fivesuperior
@@ -7321,7 +7464,13 @@ SplineSet
  595.5 1518 l 1,0,-1
 EndSplineSet
 Validated: 1
-Position2: "Single Positioning lookup 2 subtable" dx=0 dy=875 dh=0 dv=0
+Position2: "Single Positioning lookup 13 subtable" dx=-587 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 12 subtable" dx=-1324 dy=0 dh=-737 dv=0
+Position2: "Single Positioning lookup 11 subtable" dx=-1174 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 10 subtable" dx=-587 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 9 subtable" dx=-1174 dy=0 dh=-587 dv=0
+Position2: "Single Positioning lookup 6 subtable" dx=0 dy=875 dh=0 dv=0
+Position2: "Single Positioning lookup 5 subtable" dx=0 dy=875 dh=0 dv=0
 EndChar
 
 StartChar: sixsubscript
@@ -7382,6 +7531,11 @@ SplineSet
  676.5 267 676.5 267 676.5 200 c 0,21,22
 EndSplineSet
 Validated: 33
+Position2: "Single Positioning lookup 13 subtable" dx=-587 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 12 subtable" dx=-1324 dy=0 dh=-737 dv=0
+Position2: "Single Positioning lookup 11 subtable" dx=-1174 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 10 subtable" dx=-587 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 9 subtable" dx=-1174 dy=0 dh=-587 dv=0
 EndChar
 
 StartChar: sixsuperior
@@ -7447,7 +7601,13 @@ SplineSet
  676.5 1147 676.5 1147 676.5 1080 c 0,21,22
 EndSplineSet
 Validated: 33
-Position2: "Single Positioning lookup 2 subtable" dx=0 dy=875 dh=0 dv=0
+Position2: "Single Positioning lookup 13 subtable" dx=-587 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 12 subtable" dx=-1324 dy=0 dh=-737 dv=0
+Position2: "Single Positioning lookup 11 subtable" dx=-1174 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 10 subtable" dx=-587 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 9 subtable" dx=-1174 dy=0 dh=-587 dv=0
+Position2: "Single Positioning lookup 6 subtable" dx=0 dy=875 dh=0 dv=0
+Position2: "Single Positioning lookup 5 subtable" dx=0 dy=875 dh=0 dv=0
 EndChar
 
 StartChar: sevensubscript
@@ -7473,6 +7633,11 @@ SplineSet
  352 -92 l 1,0,-1
 EndSplineSet
 Validated: 1
+Position2: "Single Positioning lookup 13 subtable" dx=-587 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 12 subtable" dx=-1324 dy=0 dh=-737 dv=0
+Position2: "Single Positioning lookup 11 subtable" dx=-1174 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 10 subtable" dx=-587 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 9 subtable" dx=-1174 dy=0 dh=-587 dv=0
 EndChar
 
 StartChar: sevensuperior
@@ -7503,7 +7668,13 @@ SplineSet
  352 788 l 1,0,-1
 EndSplineSet
 Validated: 1
-Position2: "Single Positioning lookup 2 subtable" dx=0 dy=875 dh=0 dv=0
+Position2: "Single Positioning lookup 13 subtable" dx=-587 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 12 subtable" dx=-1324 dy=0 dh=-737 dv=0
+Position2: "Single Positioning lookup 11 subtable" dx=-1174 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 10 subtable" dx=-587 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 9 subtable" dx=-1174 dy=0 dh=-587 dv=0
+Position2: "Single Positioning lookup 6 subtable" dx=0 dy=875 dh=0 dv=0
+Position2: "Single Positioning lookup 5 subtable" dx=0 dy=875 dh=0 dv=0
 EndChar
 
 StartChar: eightsubscript
@@ -7583,6 +7754,11 @@ SplineSet
  651.5 164 651.5 164 651.5 119 c 0,40,41
 EndSplineSet
 Validated: 1
+Position2: "Single Positioning lookup 13 subtable" dx=-587 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 12 subtable" dx=-1324 dy=0 dh=-737 dv=0
+Position2: "Single Positioning lookup 11 subtable" dx=-1174 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 10 subtable" dx=-587 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 9 subtable" dx=-1174 dy=0 dh=-587 dv=0
 EndChar
 
 StartChar: eightsuperior
@@ -7667,7 +7843,13 @@ SplineSet
  651.5 1044 651.5 1044 651.5 999 c 0,40,41
 EndSplineSet
 Validated: 1
-Position2: "Single Positioning lookup 2 subtable" dx=0 dy=875 dh=0 dv=0
+Position2: "Single Positioning lookup 13 subtable" dx=-587 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 12 subtable" dx=-1324 dy=0 dh=-737 dv=0
+Position2: "Single Positioning lookup 11 subtable" dx=-1174 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 10 subtable" dx=-587 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 9 subtable" dx=-1174 dy=0 dh=-587 dv=0
+Position2: "Single Positioning lookup 6 subtable" dx=0 dy=875 dh=0 dv=0
+Position2: "Single Positioning lookup 5 subtable" dx=0 dy=875 dh=0 dv=0
 EndChar
 
 StartChar: ninesubscript
@@ -7728,6 +7910,11 @@ SplineSet
  676 479 676 479 676 421 c 0,23,24
 EndSplineSet
 Validated: 33
+Position2: "Single Positioning lookup 13 subtable" dx=-587 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 12 subtable" dx=-1324 dy=0 dh=-737 dv=0
+Position2: "Single Positioning lookup 11 subtable" dx=-1174 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 10 subtable" dx=-587 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 9 subtable" dx=-1174 dy=0 dh=-587 dv=0
 EndChar
 
 StartChar: ninesuperior
@@ -7792,7 +7979,13 @@ SplineSet
  676 1360 676 1360 676 1301 c 0,23,24
 EndSplineSet
 Validated: 33
-Position2: "Single Positioning lookup 2 subtable" dx=0 dy=875 dh=0 dv=0
+Position2: "Single Positioning lookup 13 subtable" dx=-587 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 12 subtable" dx=-1324 dy=0 dh=-737 dv=0
+Position2: "Single Positioning lookup 11 subtable" dx=-1174 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 10 subtable" dx=-587 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 9 subtable" dx=-1174 dy=0 dh=-587 dv=0
+Position2: "Single Positioning lookup 6 subtable" dx=0 dy=875 dh=0 dv=0
+Position2: "Single Positioning lookup 5 subtable" dx=0 dy=875 dh=0 dv=0
 EndChar
 
 StartChar: uni208D
@@ -8363,10 +8556,10 @@ SplineSet
 EndSplineSet
 Validated: 1
 Position2: "symbol_spacing subtable" dx=100 dy=0 dh=100 dv=0
-Substitution2: "Single Substitution lookup 29 subtable" doubleflatsuperior
 Substitution2: "Single Substitution lookup 28 subtable" doubleflatsuperior
-Substitution2: "Single Substitution lookup 26 subtable" doubleflatsuperior
+Substitution2: "Single Substitution lookup 27 subtable" doubleflatsuperior
 Substitution2: "Single Substitution lookup 25 subtable" doubleflatsuperior
+Substitution2: "Single Substitution lookup 24 subtable" doubleflatsuperior
 Substitution2: "Single Substitution lookup 9 subtable" doubleflat
 Substitution2: "Single Substitution lookup 8 subtable" doubleflat
 Ligature2: "Ligature Substitution lookup 2 subtable" b b
@@ -8382,42 +8575,59 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-440 1319 m 0,0,1
- 342 1319 342 1319 271 1244 c 128,-1,2
- 200 1169 200 1169 200 1066 c 0,3,4
- 200 1017 200 1017 218 972 c 1,5,-1
- 581 1268 l 1,6,7
- 517 1319 517 1319 440 1319 c 0,0,1
-198 775 m 1,8,-1
- 95 691 l 1,9,-1
- 62 664 l 1,10,-1
- 62 706 l 1,11,-1
- 62 836 l 1,12,-1
- 62 846 l 1,13,-1
- 70 852 l 1,14,-1
- 109 884 l 1,15,16
- 62 969 62 969 62 1066 c 0,17,18
- 62 1224 62 1224 172 1334 c 128,-1,19
- 282 1444 282 1444 440 1444 c 0,20,21
- 581 1444 581 1444 686 1354 c 1,22,-1
- 785 1434 l 1,23,-1
- 818 1461 l 1,24,-1
- 818 1419 l 1,25,-1
- 818 1289 l 1,26,-1
- 818 1279 l 1,27,-1
- 810 1273 l 1,28,-1
- 774 1244 l 1,29,30
- 818 1160 818 1160 818 1064 c 0,31,32
- 818 906 818 906 706.5 797.5 c 128,-1,33
- 595 689 595 689 435 689 c 0,34,35
- 301 689 301 689 198 775 c 1,8,-1
-664 1154 m 1,36,-1
- 303 860 l 1,37,38
- 366 814 366 814 438 814 c 0,39,40
- 538 814 538 814 609 888 c 128,-1,41
- 680 962 680 962 680 1066 c 0,42,43
- 680 1110 680 1110 664 1154 c 1,36,-1
+440 1324 m 0,0,1
+ 339.848244776 1324 339.848244776 1324 267.368964641 1247.43738014 c 128,-1,2
+ 195 1170.99129073 195 1170.99129073 195 1066 c 0,3,4
+ 195 1016.03708798 195 1016.03708798 213.357616546 970.143046618 c 2,5,-1
+ 215.885243508 963.823979211 l 1,6,-1
+ 221.159790218 968.124986996 l 1,7,-1
+ 584.159790218 1264.124987 l 1,8,-1
+ 588.966848825 1268.04479236 l 1,9,-1
+ 584.116018525 1271.91029776 l 2,10,11
+ 518.748549044 1324 518.748549044 1324 440 1324 c 0,0,1
+194.839960804 778.874809967 m 1,12,-1
+ 91.8338110487 694.869786496 l 1,13,-1
+ 67 674.55121382 l 1,14,-1
+ 67 706 l 1,15,-1
+ 67 836 l 1,16,-1
+ 67 843.5 l 1,17,-1
+ 73.0872600409 848.065445031 l 1,18,-1
+ 112.171583058 880.134633148 l 1,19,-1
+ 115.390410989 882.775722732 l 1,20,-1
+ 113.375634059 886.419468244 l 2,21,22
+ 67 970.290295797 67 970.290295797 67 1066 c 0,23,24
+ 67 1221.92893219 67 1221.92893219 175.535533906 1330.46446609 c 128,-1,25
+ 284.071067812 1439 284.071067812 1439 440 1439 c 0,26,27
+ 579.150379619 1439 579.150379619 1439 682.746043133 1350.20371699 c 2,28,-1
+ 685.905750178 1347.49539666 l 1,29,-1
+ 689.142599813 1350.11103273 l 1,30,-1
+ 788.166188951 1430.1302135 l 1,31,-1
+ 813 1450.44878618 l 1,32,-1
+ 813 1419 l 1,33,-1
+ 813 1289 l 1,34,-1
+ 813 1281.5 l 1,35,-1
+ 806.930756687 1276.94806752 l 1,36,-1
+ 770.863352311 1247.89376955 l 1,37,-1
+ 767.665394971 1245.31763724 l 1,38,-1
+ 769.570842324 1241.67996503 l 2,39,40
+ 813 1158.76975492 813 1158.76975492 813 1064 c 0,41,42
+ 813 908.111119046 813 908.111119046 703.013002109 801.083412579 c 128,-1,43
+ 592.968757846 694 592.968757846 694 435 694 c 0,44,45
+ 302.812948329 694 302.812948329 694 201.204585717 778.838050336 c 2,46,-1
+ 198.037440219 781.482463082 l 1,47,-1
+ 194.839960804 778.874809967 l 1,12,-1
+660.842591535 1157.87695393 m 1,48,-1
+ 299.842591535 863.876953931 l 1,49,-1
+ 294.816879615 859.783991869 l 1,50,-1
+ 300.051524355 855.961870313 l 2,51,52
+ 364.368868479 809 364.368868479 809 438 809 c 0,53,54
+ 540.13192065 809 540.13192065 809 612.607910761 884.538355891 c 128,-1,55
+ 685 959.989265802 685 959.989265802 685 1066 c 0,56,57
+ 685 1110.88087489 685 1110.88087489 668.698967117 1155.70871532 c 2,58,-1
+ 666.295618711 1162.31792343 l 1,59,-1
+ 660.842591535 1157.87695393 l 1,48,-1
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: flatsuperior

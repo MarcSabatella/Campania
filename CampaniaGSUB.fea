@@ -26,22 +26,22 @@ lookup trailing {
 # interval and inversion lookups
 
 lookup intervals_1 {
-        sub @roots @intervals' by @intervalssuperior;
-        sub @roots @quality @intervals' by @intervalssuperior;
+        sub @roots @intervals' by @intervalssuperior;           # superscript interval after root
+        sub @roots @quality @intervals' by @intervalssuperior;  # superscript interval after quality
 } intervals_1;
 
 lookup intervals_2 {
-    sub onesuperior @intervals' by @intervalssuperior;
+    ignore sub onesuperior onesuperior @intervals';             # do not allow three-digit numbers
+    sub onesuperior @intervals' by @intervalssuperior;          # allow two digit numbers
 } intervals_2;
 
 lookup inversion_3 {
-    sub @intervalssuperior @intervals' @intervals by @intervalssuperior;
+    sub @intervalssuperior @intervals' @intervals by @intervalssuperior;    # set up stack of three intervals (superscript, superscript, subscript)
 } inversion_3;
 
 lookup inversion_2 {
-    sub @intervalssuperior @intervals' by @intervalssubscript;
-    sub hyphen @intervals' by @intervalssuperior;
-    sub equal @intervals' by @intervalssuperior;
+    sub @intervalssuperior @intervals' by @intervalssubscript;  # set up stack of two intervals (superscript, subscript)
+    sub [ hyphen equal ] @intervals' by @intervalssuperior;     # superscript after hyphen
 } inversion_2;
 
 # alteration lookups
