@@ -1,0 +1,83 @@
+# Campania
+
+# GSUB definitions
+
+# symbol lookups
+
+lookup liga_symbols {
+    sub b' b' @roots by doubleflat;
+    sub b' b' @intervals by doubleflat;
+    sub @roots b' b' by doubleflatsuperior;
+    sub @roots @quality b' b' by doubleflatsuperior;
+    sub @intervalssuperior b' b' by doubleflatsuperior;
+    sub @intervalssubscript b' b' by doubleflatsuperior;
+} liga_symbols;
+
+lookup leading {
+    sub @accidentalsraw' @roots by @accidentals;
+    sub slash @accidentalsraw' by @accidentals;
+} leading;
+
+lookup trailing {
+    sub @roots o' by degree;
+    sub @roots zero' by degreeslash;
+} trailing;
+
+# interval and inversion lookups
+
+lookup intervals_1 {
+        sub @roots @intervals' by @intervalssuperior;
+        sub @roots @quality @intervals' by @intervalssuperior;
+} intervals_1;
+
+lookup intervals_2 {
+    sub onesuperior @intervals' by @intervalssuperior;
+} intervals_2;
+
+lookup inversion_3 {
+    sub @intervalssuperior @intervals' @intervals by @intervalssuperior;
+} inversion_3;
+
+lookup inversion_2 {
+    sub @intervalssuperior @intervals' by @intervalssubscript;
+    sub hyphen @intervals' by @intervalssuperior;
+    sub equal @intervals' by @intervalssuperior;
+} inversion_2;
+
+# alteration lookups
+
+lookup alterations {
+    sub @intervalssuperior @accidentalsraw' by @accidentalssuperior;
+    sub @intervalssubscript @accidentalsraw' by @accidentalssuperior;
+    sub @accidentalssuperior @intervals' by @intervalssuperior;
+    sub @roots @accidentalsraw' by @accidentalssuperior;
+    sub @roots @quality @accidentalsraw' by @accidentalssuperior;
+} alterations;
+
+lookup resolutions {
+    sub @intervalssuperior hyphen' by hyphensuperior;
+    sub @intervalssubscript hyphen' by hyphensuperior hyphensubscript;
+    sub @intervalssubscript equal' by hyphensuperior hyphensubscript;
+    sub hyphensuperior @intervals' by @intervalssuperior;
+    sub hyphensubscript @intervals' by @intervalssuperior;
+} resolutions;
+
+#lookup inversion_1 {
+#    sub @accidentalsraw' @intervals by @accidentals;
+#} inversion_1;
+
+feature liga {
+    lookup liga_symbols;
+} liga;
+
+feature calt {
+    lookup leading;
+    lookup trailing;
+    lookup intervals_1;
+    lookup intervals_2;
+    lookup inversion_3;
+    lookup inversion_2;
+    lookup alterations;
+    lookup resolutions;
+#    lookup inversion_1;
+} calt;

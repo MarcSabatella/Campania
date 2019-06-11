@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1414130042
-ModificationTime: 1560110234
+ModificationTime: 1560228023
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -58,45 +58,46 @@ OS2FamilyClass: 512
 OS2Vendor: '    '
 OS2CodePages: 20000197.00000000
 OS2UnicodeRanges: a00002ff.5200e1ff.02000029.00000000
-Lookup: 6 0 0 "liga_symbols" { "liga_symbols contextual 0"  "liga_symbols contextual 1"  "liga_symbols contextual 2"  "liga_symbols contextual 3"  "liga_symbols contextual 4"  "liga_symbols contextual 5"  } ['liga' ('musc' <'dflt' > 'latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 6 0 0 "liga_symbols" { "liga_symbols contextual 0"  "liga_symbols contextual 1"  "liga_symbols contextual 2"  "liga_symbols contextual 3"  "liga_symbols contextual 4"  "liga_symbols contextual 5"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 4 0 0 "Ligature Substitution lookup 1" { "Ligature Substitution lookup 1 subtable"  } []
 Lookup: 4 0 0 "Ligature Substitution lookup 2" { "Ligature Substitution lookup 2 subtable"  } []
 Lookup: 4 0 0 "Ligature Substitution lookup 3" { "Ligature Substitution lookup 3 subtable"  } []
 Lookup: 4 0 0 "Ligature Substitution lookup 4" { "Ligature Substitution lookup 4 subtable"  } []
 Lookup: 4 0 0 "Ligature Substitution lookup 5" { "Ligature Substitution lookup 5 subtable"  } []
 Lookup: 4 0 0 "Ligature Substitution lookup 6" { "Ligature Substitution lookup 6 subtable"  } []
-Lookup: 6 0 0 "leading" { "leading contextual 0"  "leading contextual 1"  } ['calt' ('musc' <'dflt' > 'latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 6 0 0 "leading" { "leading contextual 0"  "leading contextual 1"  } ['calt' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "Single Substitution lookup 8" { "Single Substitution lookup 8 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 9" { "Single Substitution lookup 9 subtable"  } []
-Lookup: 6 0 0 "trailing" { "trailing contextual 0"  "trailing contextual 1"  } ['calt' ('musc' <'dflt' > 'latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 6 0 0 "trailing" { "trailing contextual 0"  "trailing contextual 1"  } ['calt' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "Single Substitution lookup 11" { "Single Substitution lookup 11 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 12" { "Single Substitution lookup 12 subtable"  } []
-Lookup: 6 0 0 "intervals_1" { "intervals_1 contextual 0"  "intervals_1 contextual 1"  } ['calt' ('musc' <'dflt' > 'latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 6 0 0 "intervals_1" { "intervals_1 contextual 0"  "intervals_1 contextual 1"  } ['calt' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "Single Substitution lookup 14" { "Single Substitution lookup 14 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 15" { "Single Substitution lookup 15 subtable"  } []
-Lookup: 6 0 0 "intervals_2" { "intervals_2 subtable"  } ['calt' ('musc' <'dflt' > 'latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 6 0 0 "intervals_2" { "intervals_2 subtable"  } ['calt' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "Single Substitution lookup 17" { "Single Substitution lookup 17 subtable"  } []
-Lookup: 6 0 0 "inversion_3" { "inversion_3 subtable"  } ['calt' ('musc' <'dflt' > 'latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 6 0 0 "inversion_3" { "inversion_3 subtable"  } ['calt' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "Single Substitution lookup 19" { "Single Substitution lookup 19 subtable"  } []
-Lookup: 6 0 0 "inversion_2" { "inversion_2 contextual 0"  "inversion_2 contextual 1"  } ['calt' ('musc' <'dflt' > 'latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 6 0 0 "inversion_2" { "inversion_2 contextual 0"  "inversion_2 contextual 1"  "inversion_2 contextual 2"  } ['calt' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "Single Substitution lookup 21" { "Single Substitution lookup 21 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 22" { "Single Substitution lookup 22 subtable"  } []
-Lookup: 6 0 0 "alterations" { "alterations contextual 0"  "alterations contextual 1"  "alterations contextual 2"  "alterations contextual 3"  "alterations contextual 4"  } ['calt' ('musc' <'dflt' > 'latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 1 0 0 "Single Substitution lookup 24" { "Single Substitution lookup 24 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 23" { "Single Substitution lookup 23 subtable"  } []
+Lookup: 6 0 0 "alterations" { "alterations contextual 0"  "alterations contextual 1"  "alterations contextual 2"  "alterations contextual 3"  "alterations contextual 4"  } ['calt' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "Single Substitution lookup 25" { "Single Substitution lookup 25 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 26" { "Single Substitution lookup 26 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 27" { "Single Substitution lookup 27 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 28" { "Single Substitution lookup 28 subtable"  } []
-Lookup: 6 0 0 "resolutions" { "resolutions contextual 0"  "resolutions contextual 1"  "resolutions contextual 2"  "resolutions contextual 3"  "resolutions contextual 4"  } ['calt' ('musc' <'dflt' > 'latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 1 0 0 "Single Substitution lookup 30" { "Single Substitution lookup 30 subtable"  } []
-Lookup: 2 0 0 "Multiple Substitution lookup 31" { "Multiple Substitution lookup 31 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 29" { "Single Substitution lookup 29 subtable"  } []
+Lookup: 6 0 0 "resolutions" { "resolutions contextual 0"  "resolutions contextual 1"  "resolutions contextual 2"  "resolutions contextual 3"  "resolutions contextual 4"  } ['calt' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution lookup 31" { "Single Substitution lookup 31 subtable"  } []
 Lookup: 2 0 0 "Multiple Substitution lookup 32" { "Multiple Substitution lookup 32 subtable"  } []
-Lookup: 1 0 0 "Single Substitution lookup 33" { "Single Substitution lookup 33 subtable"  } []
+Lookup: 2 0 0 "Multiple Substitution lookup 33" { "Multiple Substitution lookup 33 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 34" { "Single Substitution lookup 34 subtable"  } []
-Lookup: 257 0 0 "symbol_spacing" { "symbol_spacing subtable"  } ['kern' ('musc' <'dflt' > 'latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 264 0 0 "inversion_3_pos" { "inversion_3_pos subtable"  } ['kern' ('musc' <'dflt' > 'latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution lookup 35" { "Single Substitution lookup 35 subtable"  } []
+Lookup: 257 0 0 "symbol_spacing" { "symbol_spacing subtable"  } ['kern' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 264 0 0 "inversion_3_pos" { "inversion_3_pos subtable"  } ['kern' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 257 0 0 "Single Positioning lookup 2" { "Single Positioning lookup 2 subtable"  } []
-Lookup: 258 0 0 "inversion_2_pos" { "inversion_2_pos per glyph data 0"  "inversion_2_pos kerning class 1"  } ['kern' ('musc' <'dflt' > 'latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 258 0 0 "inversion_2_pos" { "inversion_2_pos per glyph data 0"  "inversion_2_pos kerning class 1"  } ['kern' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 KernClass2: 2 3 "inversion_2_pos kerning class 1"
@@ -117,35 +118,35 @@ ChainSub2: coverage "resolutions contextual 4" 0 0 0 1
   Coverage: 49 zero one two three four five six seven eight nine
   BCoverage: 15 hyphensubscript
  1
-  SeqLookup: 0 "Single Substitution lookup 34"
+  SeqLookup: 0 "Single Substitution lookup 35"
 EndFPST
 ChainSub2: coverage "resolutions contextual 3" 0 0 0 1
  1 1 0
   Coverage: 49 zero one two three four five six seven eight nine
   BCoverage: 14 hyphensuperior
  1
-  SeqLookup: 0 "Single Substitution lookup 33"
+  SeqLookup: 0 "Single Substitution lookup 34"
 EndFPST
 ChainSub2: coverage "resolutions contextual 2" 0 0 0 1
  1 1 0
   Coverage: 5 equal
   BCoverage: 139 zerosubscript onesubscript twosubscript threesubscript foursubscript fivesubscript sixsubscript sevensubscript eightsubscript ninesubscript
  1
-  SeqLookup: 0 "Multiple Substitution lookup 32"
+  SeqLookup: 0 "Multiple Substitution lookup 33"
 EndFPST
 ChainSub2: coverage "resolutions contextual 1" 0 0 0 1
  1 1 0
   Coverage: 6 hyphen
   BCoverage: 139 zerosubscript onesubscript twosubscript threesubscript foursubscript fivesubscript sixsubscript sevensubscript eightsubscript ninesubscript
  1
-  SeqLookup: 0 "Multiple Substitution lookup 31"
+  SeqLookup: 0 "Multiple Substitution lookup 32"
 EndFPST
 ChainSub2: coverage "resolutions contextual 0" 0 0 0 1
  1 1 0
   Coverage: 6 hyphen
   BCoverage: 129 zerosuperior onesuperior twosuperior threesuperior foursuperior fivesuperior sixsuperior sevensuperior eightsuperior ninesuperior
  1
-  SeqLookup: 0 "Single Substitution lookup 30"
+  SeqLookup: 0 "Single Substitution lookup 31"
 EndFPST
 ChainSub2: coverage "alterations contextual 4" 0 0 0 1
  1 2 0
@@ -153,35 +154,42 @@ ChainSub2: coverage "alterations contextual 4" 0 0 0 1
   BCoverage: 28 m M a A j degree degreeslash
   BCoverage: 103 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
  1
-  SeqLookup: 0 "Single Substitution lookup 28"
+  SeqLookup: 0 "Single Substitution lookup 29"
 EndFPST
 ChainSub2: coverage "alterations contextual 3" 0 0 0 1
  1 1 0
   Coverage: 27 b h numbersign doubleflat x
   BCoverage: 103 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
  1
-  SeqLookup: 0 "Single Substitution lookup 27"
+  SeqLookup: 0 "Single Substitution lookup 28"
 EndFPST
 ChainSub2: coverage "alterations contextual 2" 0 0 0 1
  1 1 0
   Coverage: 49 zero one two three four five six seven eight nine
   BCoverage: 81 flatsuperior naturalsuperior sharpsuperior doubleflatsuperior doublesharpsuperior
  1
-  SeqLookup: 0 "Single Substitution lookup 26"
+  SeqLookup: 0 "Single Substitution lookup 27"
 EndFPST
 ChainSub2: coverage "alterations contextual 1" 0 0 0 1
  1 1 0
   Coverage: 27 b h numbersign doubleflat x
   BCoverage: 139 zerosubscript onesubscript twosubscript threesubscript foursubscript fivesubscript sixsubscript sevensubscript eightsubscript ninesubscript
  1
-  SeqLookup: 0 "Single Substitution lookup 25"
+  SeqLookup: 0 "Single Substitution lookup 26"
 EndFPST
 ChainSub2: coverage "alterations contextual 0" 0 0 0 1
  1 1 0
   Coverage: 27 b h numbersign doubleflat x
   BCoverage: 129 zerosuperior onesuperior twosuperior threesuperior foursuperior fivesuperior sixsuperior sevensuperior eightsuperior ninesuperior
  1
-  SeqLookup: 0 "Single Substitution lookup 24"
+  SeqLookup: 0 "Single Substitution lookup 25"
+EndFPST
+ChainSub2: coverage "inversion_2 contextual 2" 0 0 0 1
+ 1 1 0
+  Coverage: 49 zero one two three four five six seven eight nine
+  BCoverage: 5 equal
+ 1
+  SeqLookup: 0 "Single Substitution lookup 23"
 EndFPST
 ChainSub2: coverage "inversion_2 contextual 1" 0 0 0 1
  1 1 0
@@ -1007,10 +1015,10 @@ ShortTable: maxp 16
 EndShort
 LangName: 1033 "" "" "Regular" "" "" "Version 2.000" "" "" "" "" "" "https://masteringmusescore.com" "" "Copyright (c) 1994-2019, Marc Sabatella (https://masteringmusescore.com), SIL International (http://www.sil.org/) with Reserved Font Name +ACIA-Campania+ACIA.+AA0ACgANAAoA-This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL+AA0ACgANAAoADQAK------------------------------------------------------------+AA0ACgAA-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007+AA0ACgAA------------------------------------------------------------+AA0ACgANAAoA-PREAMBLE+AA0ACgAA-The goals of the Open Font License (OFL) are to stimulate worldwide development of collaborative font projects, to support the font creation efforts of academic and linguistic communities, and to provide a free and open framework in which fonts may be shared and improved in partnership with others.+AA0ACgANAAoA-The OFL allows the licensed fonts to be used, studied, modified and redistributed freely as long as they are not sold by themselves. The fonts, including any derivative works, can be bundled, embedded, redistributed and/or sold with any software provided that any reserved names are not used by derivative works. The fonts and derivatives, however, cannot be released under any other type of license. The requirement for fonts to remain under this license does not apply to any document created using the fonts or their derivatives.+AA0ACgANAAoA-DEFINITIONS+AA0ACgAi-Font Software+ACIA refers to the set of files released by the Copyright Holder(s) under this license and clearly marked as such. This may include source files, build scripts and documentation.+AA0ACgANAAoAIgAA-Reserved Font Name+ACIA refers to any names specified as such after the copyright statement(s).+AA0ACgANAAoAIgAA-Original Version+ACIA refers to the collection of Font Software components as distributed by the Copyright Holder(s).+AA0ACgANAAoAIgAA-Modified Version+ACIA refers to any derivative made by adding to, deleting, or substituting -- in part or in whole -- any of the components of the Original Version, by changing formats or by porting the Font Software to a new environment.+AA0ACgANAAoAIgAA-Author+ACIA refers to any designer, engineer, programmer, technical writer or other person who contributed to the Font Software.+AA0ACgANAAoA-PERMISSION & CONDITIONS+AA0ACgAA-Permission is hereby granted, free of charge, to any person obtaining a copy of the Font Software, to use, study, copy, merge, embed, modify, redistribute, and sell modified and unmodified copies of the Font Software, subject to the following conditions:+AA0ACgANAAoA-1) Neither the Font Software nor any of its individual components, in Original or Modified Versions, may be sold by itself.+AA0ACgANAAoA-2) Original or Modified Versions of the Font Software may be bundled, redistributed and/or sold with any software, provided that each copy contains the above copyright notice and this license. These can be included either as stand-alone text files, human-readable headers or in the appropriate machine-readable metadata fields within text or binary files as long as those fields can be easily viewed by the user.+AA0ACgANAAoA-3) No Modified Version of the Font Software may use the Reserved Font Name(s) unless explicit written permission is granted by the corresponding Copyright Holder. This restriction only applies to the primary font name as presented to the users.+AA0ACgANAAoA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font Software shall not be used to promote, endorse or advertise any Modified Version, except to acknowledge the contribution(s) of the Copyright Holder(s) and the Author(s) or with their explicit written permission.+AA0ACgANAAoA-5) The Font Software, modified or unmodified, in part or in whole, must be distributed entirely under this license, and must not be distributed under any other license. The requirement for fonts to remain under this license does not apply to any document created using the Font Software.+AA0ACgANAAoA-TERMINATION+AA0ACgAA-This license becomes null and void if any of the above conditions are not met.+AA0ACgANAAoA-DISCLAIMER+AA0ACgAA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE FONT SOFTWARE." "http://scripts.sil.org/OFL"
 GaspTable: 4 8 2 17 1 32 3 65535 2 0
-OtfFeatName: 'ss01' 1033 "Literacy alternates"
-OtfFeatName: 'ss04' 1033 "Barred-bowl forms"
-OtfFeatName: 'ss05' 1033 "Slant italic specials"
 OtfFeatName: 'ss06' 1033 "Show invisible characters"
+OtfFeatName: 'ss05' 1033 "Slant italic specials"
+OtfFeatName: 'ss04' 1033 "Barred-bowl forms"
+OtfFeatName: 'ss01' 1033 "Literacy alternates"
 Encoding: UnicodeFull
 Compacted: 1
 UnicodeInterp: none
@@ -1018,7 +1026,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 110 10 5
+WinInfo: 120 10 5
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 468992 -1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -1145,10 +1153,10 @@ SplineSet
  715 427 l 1,4,-1
 EndSplineSet
 Validated: 1
+Substitution2: "Single Substitution lookup 29 subtable" sharpsuperior
 Substitution2: "Single Substitution lookup 28 subtable" sharpsuperior
-Substitution2: "Single Substitution lookup 27 subtable" sharpsuperior
+Substitution2: "Single Substitution lookup 26 subtable" sharpsuperior
 Substitution2: "Single Substitution lookup 25 subtable" sharpsuperior
-Substitution2: "Single Substitution lookup 24 subtable" sharpsuperior
 Substitution2: "Single Substitution lookup 9 subtable" sharp
 Substitution2: "Single Substitution lookup 8 subtable" sharp
 EndChar
@@ -1501,7 +1509,7 @@ SplineSet
  634 -440 l 1,0,1
 EndSplineSet
 Validated: 1
-Position2: "symbol_spacing subtable" dx=0 dy=300 dh=0 dv=0
+Position2: "symbol_spacing subtable" dx=0 dy=250 dh=0 dv=0
 EndChar
 
 StartChar: parenright
@@ -1534,7 +1542,7 @@ SplineSet
  600 640 600 640 600 489 c 0,0,1
 EndSplineSet
 Validated: 1
-Position2: "symbol_spacing subtable" dx=0 dy=300 dh=0 dv=0
+Position2: "symbol_spacing subtable" dx=0 dy=250 dh=0 dv=0
 EndChar
 
 StartChar: asterisk
@@ -1710,8 +1718,8 @@ SplineSet
  83 382 l 1,0,-1
 EndSplineSet
 Validated: 1
-MultipleSubs2: "Multiple Substitution lookup 31 subtable" hyphensuperior hyphensubscript
-Substitution2: "Single Substitution lookup 30 subtable" hyphensuperior
+MultipleSubs2: "Multiple Substitution lookup 32 subtable" hyphensuperior hyphensubscript
+Substitution2: "Single Substitution lookup 31 subtable" hyphensuperior
 EndChar
 
 StartChar: period
@@ -1811,9 +1819,10 @@ SplineSet
  756 538 756 538 756 735 c 0,24,25
 EndSplineSet
 Validated: 1
+Substitution2: "Single Substitution lookup 35 subtable" zerosuperior
 Substitution2: "Single Substitution lookup 34 subtable" zerosuperior
-Substitution2: "Single Substitution lookup 33 subtable" zerosuperior
-Substitution2: "Single Substitution lookup 26 subtable" zerosuperior
+Substitution2: "Single Substitution lookup 27 subtable" zerosuperior
+Substitution2: "Single Substitution lookup 23 subtable" zerosuperior
 Substitution2: "Single Substitution lookup 22 subtable" zerosuperior
 Substitution2: "Single Substitution lookup 21 subtable" zerosubscript
 Substitution2: "Single Substitution lookup 19 subtable" zerosuperior
@@ -1860,9 +1869,10 @@ SplineSet
  264 0 l 1,0,-1
 EndSplineSet
 Validated: 1
+Substitution2: "Single Substitution lookup 35 subtable" onesuperior
 Substitution2: "Single Substitution lookup 34 subtable" onesuperior
-Substitution2: "Single Substitution lookup 33 subtable" onesuperior
-Substitution2: "Single Substitution lookup 26 subtable" onesuperior
+Substitution2: "Single Substitution lookup 27 subtable" onesuperior
+Substitution2: "Single Substitution lookup 23 subtable" onesuperior
 Substitution2: "Single Substitution lookup 22 subtable" onesuperior
 Substitution2: "Single Substitution lookup 21 subtable" onesubscript
 Substitution2: "Single Substitution lookup 19 subtable" onesuperior
@@ -1924,9 +1934,10 @@ SplineSet
  844 0 l 1,0,-1
 EndSplineSet
 Validated: 1
+Substitution2: "Single Substitution lookup 35 subtable" twosuperior
 Substitution2: "Single Substitution lookup 34 subtable" twosuperior
-Substitution2: "Single Substitution lookup 33 subtable" twosuperior
-Substitution2: "Single Substitution lookup 26 subtable" twosuperior
+Substitution2: "Single Substitution lookup 27 subtable" twosuperior
+Substitution2: "Single Substitution lookup 23 subtable" twosuperior
 Substitution2: "Single Substitution lookup 22 subtable" twosuperior
 Substitution2: "Single Substitution lookup 21 subtable" twosubscript
 Substitution2: "Single Substitution lookup 19 subtable" twosuperior
@@ -2009,9 +2020,10 @@ SplineSet
  856 535 856 535 856 449 c 0,0,1
 EndSplineSet
 Validated: 1
+Substitution2: "Single Substitution lookup 35 subtable" threesuperior
 Substitution2: "Single Substitution lookup 34 subtable" threesuperior
-Substitution2: "Single Substitution lookup 33 subtable" threesuperior
-Substitution2: "Single Substitution lookup 26 subtable" threesuperior
+Substitution2: "Single Substitution lookup 27 subtable" threesuperior
+Substitution2: "Single Substitution lookup 23 subtable" threesuperior
 Substitution2: "Single Substitution lookup 22 subtable" threesuperior
 Substitution2: "Single Substitution lookup 21 subtable" threesubscript
 Substitution2: "Single Substitution lookup 19 subtable" threesuperior
@@ -2051,9 +2063,10 @@ SplineSet
  607 1175 l 1,11,-1
 EndSplineSet
 Validated: 1
+Substitution2: "Single Substitution lookup 35 subtable" foursuperior
 Substitution2: "Single Substitution lookup 34 subtable" foursuperior
-Substitution2: "Single Substitution lookup 33 subtable" foursuperior
-Substitution2: "Single Substitution lookup 26 subtable" foursuperior
+Substitution2: "Single Substitution lookup 27 subtable" foursuperior
+Substitution2: "Single Substitution lookup 23 subtable" foursuperior
 Substitution2: "Single Substitution lookup 22 subtable" foursuperior
 Substitution2: "Single Substitution lookup 21 subtable" foursubscript
 Substitution2: "Single Substitution lookup 19 subtable" foursuperior
@@ -2119,9 +2132,10 @@ SplineSet
  812 1187 l 1,0,-1
 EndSplineSet
 Validated: 1
+Substitution2: "Single Substitution lookup 35 subtable" fivesuperior
 Substitution2: "Single Substitution lookup 34 subtable" fivesuperior
-Substitution2: "Single Substitution lookup 33 subtable" fivesuperior
-Substitution2: "Single Substitution lookup 26 subtable" fivesuperior
+Substitution2: "Single Substitution lookup 27 subtable" fivesuperior
+Substitution2: "Single Substitution lookup 23 subtable" fivesuperior
 Substitution2: "Single Substitution lookup 22 subtable" fivesuperior
 Substitution2: "Single Substitution lookup 21 subtable" fivesubscript
 Substitution2: "Single Substitution lookup 19 subtable" fivesuperior
@@ -2198,9 +2212,10 @@ SplineSet
  767 272 767 272 767 348 c 0,39,40
 EndSplineSet
 Validated: 33
+Substitution2: "Single Substitution lookup 35 subtable" sixsuperior
 Substitution2: "Single Substitution lookup 34 subtable" sixsuperior
-Substitution2: "Single Substitution lookup 33 subtable" sixsuperior
-Substitution2: "Single Substitution lookup 26 subtable" sixsuperior
+Substitution2: "Single Substitution lookup 27 subtable" sixsuperior
+Substitution2: "Single Substitution lookup 23 subtable" sixsuperior
 Substitution2: "Single Substitution lookup 22 subtable" sixsuperior
 Substitution2: "Single Substitution lookup 21 subtable" sixsubscript
 Substitution2: "Single Substitution lookup 19 subtable" sixsuperior
@@ -2237,9 +2252,10 @@ SplineSet
  479 -30 l 1,0,-1
 EndSplineSet
 Validated: 1
+Substitution2: "Single Substitution lookup 35 subtable" sevensuperior
 Substitution2: "Single Substitution lookup 34 subtable" sevensuperior
-Substitution2: "Single Substitution lookup 33 subtable" sevensuperior
-Substitution2: "Single Substitution lookup 26 subtable" sevensuperior
+Substitution2: "Single Substitution lookup 27 subtable" sevensuperior
+Substitution2: "Single Substitution lookup 23 subtable" sevensuperior
 Substitution2: "Single Substitution lookup 22 subtable" sevensuperior
 Substitution2: "Single Substitution lookup 21 subtable" sevensubscript
 Substitution2: "Single Substitution lookup 19 subtable" sevensuperior
@@ -2336,9 +2352,10 @@ SplineSet
  765 191 765 191 765 241 c 0,64,65
 EndSplineSet
 Validated: 1
+Substitution2: "Single Substitution lookup 35 subtable" eightsuperior
 Substitution2: "Single Substitution lookup 34 subtable" eightsuperior
-Substitution2: "Single Substitution lookup 33 subtable" eightsuperior
-Substitution2: "Single Substitution lookup 26 subtable" eightsuperior
+Substitution2: "Single Substitution lookup 27 subtable" eightsuperior
+Substitution2: "Single Substitution lookup 23 subtable" eightsuperior
 Substitution2: "Single Substitution lookup 22 subtable" eightsuperior
 Substitution2: "Single Substitution lookup 21 subtable" eightsubscript
 Substitution2: "Single Substitution lookup 19 subtable" eightsuperior
@@ -2413,9 +2430,10 @@ SplineSet
  747 839 747 839 747 877 c 0,39,40
 EndSplineSet
 Validated: 33
+Substitution2: "Single Substitution lookup 35 subtable" ninesuperior
 Substitution2: "Single Substitution lookup 34 subtable" ninesuperior
-Substitution2: "Single Substitution lookup 33 subtable" ninesuperior
-Substitution2: "Single Substitution lookup 26 subtable" ninesuperior
+Substitution2: "Single Substitution lookup 27 subtable" ninesuperior
+Substitution2: "Single Substitution lookup 23 subtable" ninesuperior
 Substitution2: "Single Substitution lookup 22 subtable" ninesuperior
 Substitution2: "Single Substitution lookup 21 subtable" ninesubscript
 Substitution2: "Single Substitution lookup 19 subtable" ninesuperior
@@ -2563,7 +2581,7 @@ SplineSet
  395 709 l 1,4,-1
 EndSplineSet
 Validated: 1
-MultipleSubs2: "Multiple Substitution lookup 32 subtable" hyphensuperior hyphensubscript
+MultipleSubs2: "Multiple Substitution lookup 33 subtable" hyphensuperior hyphensubscript
 EndChar
 
 StartChar: greater
@@ -4450,7 +4468,7 @@ SplineSet
  166 -406 l 1,0,-1
 EndSplineSet
 Validated: 1
-Position2: "symbol_spacing subtable" dx=0 dy=300 dh=0 dv=0
+Position2: "symbol_spacing subtable" dx=0 dy=250 dh=0 dv=0
 EndChar
 
 StartChar: backslash
@@ -4487,7 +4505,7 @@ SplineSet
  77 -408 l 1,0,-1
 EndSplineSet
 Validated: 1
-Position2: "symbol_spacing subtable" dx=0 dy=300 dh=0 dv=0
+Position2: "symbol_spacing subtable" dx=0 dy=250 dh=0 dv=0
 EndChar
 
 StartChar: asciicircum
@@ -4679,10 +4697,10 @@ SplineSet
  781 340 781 340 781 438 c 0,28,29
 EndSplineSet
 Validated: 1
+Substitution2: "Single Substitution lookup 29 subtable" flatsuperior
 Substitution2: "Single Substitution lookup 28 subtable" flatsuperior
-Substitution2: "Single Substitution lookup 27 subtable" flatsuperior
+Substitution2: "Single Substitution lookup 26 subtable" flatsuperior
 Substitution2: "Single Substitution lookup 25 subtable" flatsuperior
-Substitution2: "Single Substitution lookup 24 subtable" flatsuperior
 Substitution2: "Single Substitution lookup 9 subtable" flat
 Substitution2: "Single Substitution lookup 8 subtable" flat
 EndChar
@@ -5115,10 +5133,10 @@ SplineSet
  562 0 l 1,0,-1
 EndSplineSet
 Validated: 1
+Substitution2: "Single Substitution lookup 29 subtable" naturalsuperior
 Substitution2: "Single Substitution lookup 28 subtable" naturalsuperior
-Substitution2: "Single Substitution lookup 27 subtable" naturalsuperior
+Substitution2: "Single Substitution lookup 26 subtable" naturalsuperior
 Substitution2: "Single Substitution lookup 25 subtable" naturalsuperior
-Substitution2: "Single Substitution lookup 24 subtable" naturalsuperior
 Substitution2: "Single Substitution lookup 9 subtable" natural
 Substitution2: "Single Substitution lookup 8 subtable" natural
 EndChar
@@ -6138,10 +6156,10 @@ SplineSet
  568 0 l 1,0,-1
 EndSplineSet
 Validated: 1
+Substitution2: "Single Substitution lookup 29 subtable" doublesharpsuperior
 Substitution2: "Single Substitution lookup 28 subtable" doublesharpsuperior
-Substitution2: "Single Substitution lookup 27 subtable" doublesharpsuperior
+Substitution2: "Single Substitution lookup 26 subtable" doublesharpsuperior
 Substitution2: "Single Substitution lookup 25 subtable" doublesharpsuperior
-Substitution2: "Single Substitution lookup 24 subtable" doublesharpsuperior
 Substitution2: "Single Substitution lookup 9 subtable" doublesharp
 Substitution2: "Single Substitution lookup 8 subtable" doublesharp
 EndChar
@@ -6312,7 +6330,7 @@ SplineSet
  775 -442 l 1,0,1
 EndSplineSet
 Validated: 1
-Position2: "symbol_spacing subtable" dx=0 dy=300 dh=0 dv=0
+Position2: "symbol_spacing subtable" dx=0 dy=250 dh=0 dv=0
 EndChar
 
 StartChar: bar
@@ -6392,7 +6410,7 @@ SplineSet
  761 465 l 1,0,1
 EndSplineSet
 Validated: 1
-Position2: "symbol_spacing subtable" dx=0 dy=300 dh=0 dv=0
+Position2: "symbol_spacing subtable" dx=0 dy=250 dh=0 dv=0
 EndChar
 
 StartChar: asciitilde
@@ -6440,8 +6458,6 @@ Encoding: 176 176 94
 Width: 900
 VWidth: 2232
 Flags: W
-HStem: 688 125<306 570> 1318 125<308 571>
-VStem: 62 138<927 1206> 680 138<925 1205>
 LayerCount: 2
 Fore
 SplineSet
@@ -6465,7 +6481,6 @@ SplineSet
  680 1168 680 1168 608 1243 c 128,-1,24
  536 1318 536 1318 440 1318 c 0,13,14
 EndSplineSet
-Validated: 524289
 EndChar
 
 StartChar: oneromanlower
@@ -6948,7 +6963,7 @@ SplineSet
  690.5 81 l 1,43,-1
  621.5 -73 l 1,0,-1
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: twosuperior
@@ -7002,7 +7017,7 @@ SplineSet
  690.5 961 l 1,44,-1
  621.5 806 l 1,0,-1
 EndSplineSet
-Validated: 524289
+Validated: 1
 Position2: "Single Positioning lookup 2 subtable" dx=0 dy=875 dh=0 dv=0
 EndChar
 
@@ -7066,7 +7081,7 @@ SplineSet
  606.5 322 606.5 322 626 285 c 128,-1,63
  645.5 248 645.5 248 645.5 196 c 0,0,1
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: threesuperior
@@ -7133,7 +7148,7 @@ SplineSet
  606.5 1201 606.5 1201 626 1164 c 128,-1,62
  645.5 1127 645.5 1127 645.5 1076 c 0,0,1
 EndSplineSet
-Validated: 524289
+Validated: 1
 Position2: "Single Positioning lookup 2 subtable" dx=0 dy=875 dh=0 dv=0
 EndChar
 
@@ -7162,7 +7177,7 @@ SplineSet
  700.5 141 l 1,13,-1
  570.5 141 l 1,3,-1
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: foursuperior
@@ -7195,7 +7210,7 @@ SplineSet
  700.5 1021 l 1,13,-1
  570.5 1021 l 1,3,-1
 EndSplineSet
-Validated: 524289
+Validated: 1
 Position2: "Single Positioning lookup 2 subtable" dx=0 dy=875 dh=0 dv=0
 EndChar
 
@@ -7248,7 +7263,7 @@ SplineSet
  653.5 741 l 1,46,-1
  595.5 638 l 1,0,-1
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: fivesuperior
@@ -7305,7 +7320,7 @@ SplineSet
  653.5 1620 l 1,46,-1
  595.5 1518 l 1,0,-1
 EndSplineSet
-Validated: 524289
+Validated: 1
 Position2: "Single Positioning lookup 2 subtable" dx=0 dy=875 dh=0 dv=0
 EndChar
 
@@ -7366,7 +7381,7 @@ SplineSet
  624.5 359 624.5 359 650.5 313 c 128,-1,58
  676.5 267 676.5 267 676.5 200 c 0,21,22
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: sixsuperior
@@ -7431,7 +7446,7 @@ SplineSet
  624.5 1239 624.5 1239 650.5 1193 c 128,-1,58
  676.5 1147 676.5 1147 676.5 1080 c 0,21,22
 EndSplineSet
-Validated: 524321
+Validated: 33
 Position2: "Single Positioning lookup 2 subtable" dx=0 dy=875 dh=0 dv=0
 EndChar
 
@@ -7567,7 +7582,7 @@ SplineSet
  605.5 240 605.5 240 628.5 202 c 128,-1,79
  651.5 164 651.5 164 651.5 119 c 0,40,41
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: eightsuperior
@@ -7651,7 +7666,7 @@ SplineSet
  605.5 1121 605.5 1121 628.5 1082.5 c 128,-1,79
  651.5 1044 651.5 1044 651.5 999 c 0,40,41
 EndSplineSet
-Validated: 524289
+Validated: 1
 Position2: "Single Positioning lookup 2 subtable" dx=0 dy=875 dh=0 dv=0
 EndChar
 
@@ -8204,7 +8219,7 @@ SplineSet
  275 960 l 2,47,48
  277 962 277 962 282 962 c 2,13,-1
 EndSplineSet
-Validated: 8388609
+Validated: 1
 Position2: "symbol_spacing subtable" dx=100 dy=0 dh=100 dv=0
 EndChar
 
@@ -8262,7 +8277,7 @@ SplineSet
  285 634 285 634 285 602 c 0,74,75
  285 586 285 586 380 535 c 1,0,-1
 EndSplineSet
-Validated: 8388609
+Validated: 1
 Position2: "symbol_spacing subtable" dx=100 dy=0 dh=100 dv=0
 EndChar
 
@@ -8346,12 +8361,12 @@ SplineSet
  490 408 490 408 502 415 c 0,109,110
  612 485 612 485 648 565 c 0,91,92
 EndSplineSet
-Validated: 8388609
+Validated: 1
 Position2: "symbol_spacing subtable" dx=100 dy=0 dh=100 dv=0
+Substitution2: "Single Substitution lookup 29 subtable" doubleflatsuperior
 Substitution2: "Single Substitution lookup 28 subtable" doubleflatsuperior
-Substitution2: "Single Substitution lookup 27 subtable" doubleflatsuperior
+Substitution2: "Single Substitution lookup 26 subtable" doubleflatsuperior
 Substitution2: "Single Substitution lookup 25 subtable" doubleflatsuperior
-Substitution2: "Single Substitution lookup 24 subtable" doubleflatsuperior
 Substitution2: "Single Substitution lookup 9 subtable" doubleflat
 Substitution2: "Single Substitution lookup 8 subtable" doubleflat
 Ligature2: "Ligature Substitution lookup 2 subtable" b b
@@ -8364,8 +8379,6 @@ Encoding: 119209 119209 154
 Width: 900
 VWidth: 2892
 Flags: W
-HStem: 689 125<306 570> 1319 125<308 571>
-VStem: 62 138<974 1206> 680 138<925 1153>
 LayerCount: 2
 Fore
 SplineSet
@@ -8405,7 +8418,6 @@ SplineSet
  680 962 680 962 680 1066 c 0,42,43
  680 1110 680 1110 664 1154 c 1,36,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: flatsuperior
@@ -8499,7 +8511,7 @@ SplineSet
  220 1488 l 2,46,47
  222 1490 222 1490 226 1490 c 2,12,-1
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: sharpsuperior
@@ -8661,7 +8673,7 @@ SplineSet
  228 1228 228 1228 228 1202 c 0,74,75
  228 1190 228 1190 304 1148 c 1,0,-1
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: doubleflatsuperior
@@ -8744,7 +8756,7 @@ SplineSet
  392 1046 392 1046 402 1052 c 0,108,109
  490 1108 490 1108 518 1172 c 0,90,91
 EndSplineSet
-Validated: 8388609
+Validated: 1
 Ligature2: "Ligature Substitution lookup 6 subtable" b b
 Ligature2: "Ligature Substitution lookup 5 subtable" b b
 Ligature2: "Ligature Substitution lookup 4 subtable" b b

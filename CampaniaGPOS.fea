@@ -1,0 +1,26 @@
+# Campania
+
+# GPOS definitions
+
+# values are specific to font metrics
+
+lookup symbol_spacing {
+    pos @brackets <0 250 0 0>;          # raise brackets to align with RNA
+    pos @accidentals <100 0 100 0>;     # add padding around accidentals
+} symbol_spacing;
+
+lookup inversion_3_pos {
+    pos @intervalssuperior' <0 875 0 0> @intervalssuperior @intervalssubscript;     # raise first superscript numeral when in stacks of three (643)
+} inversion_3_pos;
+
+lookup inversion_2_pos {
+    pos @intervalssuperior @intervalssubscript -737;    # move superscript numerals left to aign under other superscript numerals
+    pos @intervalssuperior @intervalssuperior -737;     # move subscript numerals left to aign under superscript numerals
+    pos hyphensuperior hyphensubscript -395;            # move subscript hyphen left to align under superscript hyphen (64-53)
+} inversion_2_pos;
+
+feature kern {
+    lookup symbol_spacing;
+    lookup inversion_3_pos;
+    lookup inversion_2_pos;
+} kern;
