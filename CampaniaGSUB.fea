@@ -11,16 +11,20 @@ lookup liga_symbols {
     sub @roots @quality b' b' by doubleflatsuperior;
     sub @intervalssuperior b' b' by doubleflatsuperior;
     sub @intervalssubscript b' b' by doubleflatsuperior;
+    sub numbersign' numbersign' by doublesharp;
+    sub x' @roots by doublesharp;
 } liga_symbols;
 
 lookup leading {
     sub @accidentalsraw' @roots by @accidentals;
+#    sub @accidentalsraw' @nashville by @accidentals;
     sub slash @accidentalsraw' by @accidentals;
 } leading;
 
 lookup trailing {
     sub @roots o' by degree;
     sub @roots zero' by degreeslash;
+    sub @roots [ t asciicircum ]' by triangle;
 } trailing;
 
 # interval and inversion lookups

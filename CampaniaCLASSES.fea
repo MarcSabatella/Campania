@@ -6,14 +6,16 @@
 
 @accidentals = [ flat natural sharp doubleflat doublesharp ];
 @accidentalssuperior = [ flatsuperior naturalsuperior sharpsuperior doubleflatsuperior doublesharpsuperior ];
-@accidentalsraw = [ b h numbersign doubleflat x ];
+@accidentalsraw = [ b h numbersign doubleflat doublesharp ];
 
 @romanupper = [ oneromanupper tworomanupper threeromanupper fourromanupper fiveromanupper sixromanupper sevenromanupper ];
 @romanlower = [ oneromanlower tworomanlower threeromanlower fourromanlower fiveromanlower sixromanlower sevenromanlower ];
 @roman = [ @romanupper @romanlower ];
+#@nashville = [ one.init two.init three.init four.init five.init six.init seven.init eight.init nine.init ];
+
 @roots = [ A-Z a-z @roman ];
 
-@quality = [ m M a A j degree degreeslash ];
+@quality = [ m M a A j i x degree degreeslash triangle ];
 
 @intervals = [ zero one two three four five six seven eight nine ];
 @intervalssuperior = [ zerosuperior onesuperior twosuperior threesuperior foursuperior fivesuperior sixsuperior sevensuperior eightsuperior ninesuperior ];
