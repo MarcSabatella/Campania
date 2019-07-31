@@ -17,7 +17,7 @@ The common indications for inversions and seventh chords (e.g., 6, 7, 64, 643, 4
 are superscripted and turned into appropriate vertically-stacked ligatures.
 When used in a context where this makes sense,
 "b" and "#" turn into flat and sharp,
-"bb" and "##" turn into double flat and double sharp, and
+"bb" and "##" turn into double flat and double sharp,
 "o" and "0" turn into diminished and half-diminished symbols,
 and "t" or "^" turns into a triangle.
 
