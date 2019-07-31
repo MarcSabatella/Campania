@@ -6,7 +6,7 @@ and the impressive [Figurato](https://github.com/fkretlow/figurato) font he deve
 as well as the work of Ronald Caltabiano and his pioneering Sicialian Numerals font.
 This current version of Campania is not directly based on either of these, however.
 Instead, it uses the glyphs from [Doulos](https://software.sil.org/doulos/)
-and adds somerelatively straightforward contextual substitutions and positioning rules
+and adds some relatively straightforward contextual substitutions and positioning rules
 to allow you to enter the most common symbols just by typing naturally.
 
 To install Campania, download either the [TTF](Campania.ttf?raw=true) or [OTF](Campania.otf?raw=true) files
@@ -16,8 +16,10 @@ To use Campania, simply type as you normally would, and the formatting happens a
 The common indications for inversions and seventh chords (e.g., 6, 7, 64, 643, 43)
 are superscripted and turned into appropriate vertically-stacked ligatures.
 When used in a context where this makes sense,
-"b" and "#" turn into flat and sharp, and
-"o" and "0" turn into diminished and half-diminished symbols, etc.
+"b" and "#" turn into flat and sharp,
+"bb" and "##" turn into double flat and double sharp, and
+"o" and "0" turn into diminished and half-diminished symbols,
+and "t" or "^" turns into a triangle.
 
 ![Campania](Campania.png?raw=true)
 
