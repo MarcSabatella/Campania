@@ -13,8 +13,8 @@ To install Campania, download either the [TTF](Campania.ttf?raw=true) or [OTF](C
 and follow the standard procedures for installing and selecting fonts on your system.
 
 To use Campania, simply type as you normally would, and the formatting happens automatically.
-The common indications for inversions and seventh chords (e.g., 6, 7, 64, 643, 43)
-are superscripted and turned into appropriate vertically-stacked ligatures.
+Numeric indications for inversions and seventh/extended chords (e.g., 6, 7, 64, 643, 43, 9, 13)
+are automatically superscripted and stacked vertically.
 When used in a context where this makes sense,
 "b" and "#" turn into flat and sharp,
 "bb" and "##" turn into double flat and double sharp,
