@@ -5,12 +5,14 @@
 # values are specific to font metrics
 
 lookup symbol_spacing {
-    pos @brackets <0 250 0 0>;          # raise brackets to align with RNA
+#    pos @brackets <0 250 0 0>;          # raise brackets to align with RNA
     pos @accidentals <100 0 100 0>;     # add padding around accidentals
 } symbol_spacing;
 
 @noonesuperior = [ zerosuperior twosuperior threesuperior foursuperior fivesuperior sixsuperior sevensuperior eightsuperior ninesuperior ];
 
+# not currently used, as FreeType apparently does not support vertical positioning on macOS
+# instead use substitutions with @intervalssupersuper
 lookup inversion_3_pos {
     # raise first superscript number when in stacks of three (643)
     pos onesuperior' <0 875 0 0> @intervalssuperior @noonesuperior @intervalssubscript;
@@ -37,7 +39,7 @@ lookup inversion_one_pos {
 
 feature kern {
     lookup symbol_spacing;
-    lookup inversion_3_pos;
+#    lookup inversion_3_pos;
     lookup inversion_2_pos;
     lookup inversion_one_pos;
 } kern;

@@ -15,6 +15,13 @@ lookup liga_symbols {
     sub x' @roots by doublesharp;
 } liga_symbols;
 
+lookup liga_inversions {
+    sub [ @roots @quality ] seven' five' three' by sevenfivethree;
+    sub [ @roots @quality ] six' five' three' by sixfivethree;
+    sub [ @roots @quality ] six' four' three' by sixfourthree;
+    sub [ @roots @quality ] six' four' two' by sixfourtwo;
+} liga_inversions;
+
 lookup leading {
     sub @accidentalsraw' @roots by @accidentals;
 #    sub @accidentalsraw' @nashville by @accidentals;
@@ -40,7 +47,10 @@ lookup intervals_2 {
 } intervals_2;
 
 lookup inversion_3 {
-    sub @intervalssuperior @intervals' @intervals by @intervalssuperior;    # set up stack of three intervals (superscript, superscript, subscript)
+# use @intervalssupersuper rather than GPOS
+#    sub @intervalssuperior @intervals' @intervals by @intervalssuperior;    # set up stack of three intervals (superscript, superscript, subscript)
+    sub @intervalssuperior' @intervals @intervals by @intervalssupersuper;
+    sub @intervalssupersuper @intervals' @intervals by @intervalssuperior;
 } inversion_3;
 
 lookup inversion_2 {
@@ -72,6 +82,7 @@ lookup resolutions {
 
 feature liga {
     lookup liga_symbols;
+    lookup liga_inversions;
 } liga;
 
 feature calt {

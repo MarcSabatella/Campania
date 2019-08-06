@@ -21,3 +21,4 @@
 @intervalssuperior = [ zerosuperior onesuperior twosuperior threesuperior foursuperior fivesuperior sixsuperior sevensuperior eightsuperior ninesuperior ];
 @intervalssubscript = [ zerosubscript onesubscript twosubscript threesubscript foursubscript fivesubscript sixsubscript sevensubscript eightsubscript ninesubscript ];
 @intervalsstack = [ @intervalssuperior @intervalssubscript ];
+@intervalssupersuper = [ zerosupersuper onesupersuper twosupersuper threesupersuper foursupersuper fivesupersuper sixsupersuper sevensupersuper eightsupersuper ninesupersuper ];
