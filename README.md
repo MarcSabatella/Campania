@@ -19,7 +19,7 @@ When used in a context where this makes sense,
 "b" and "#" turn into flat and sharp,
 "bb" and "##" turn into double flat and double sharp,
 "o" and "0" turn into diminished and half-diminished symbols,
-and "t" or "^" turns into a triangle.
+and "^" turns into a triangle.
 
 ![Campania](Campania.png?raw=true)
 
