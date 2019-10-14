@@ -22,3 +22,5 @@
 @intervalssubscript = [ zerosubscript onesubscript twosubscript threesubscript foursubscript fivesubscript sixsubscript sevensubscript eightsubscript ninesubscript ];
 @intervalsstack = [ @intervalssuperior @intervalssubscript ];
 @intervalssupersuper = [ zerosupersuper onesupersuper twosupersuper threesupersuper foursupersuper fivesupersuper sixsupersuper sevensupersuper eightsupersuper ninesupersuper ];
+
+@interior = [ @roots @quality @accidentals @accidentalssuperior @accidentalsraw @intervals @intervalssuperior @intervalssubscript @intervalssupersuper hyphen hyphensuperior hyphensubscript equal slash ];

@@ -39,6 +39,8 @@ lookup trailing {
 lookup intervals_1 {
         sub @roots @intervals' by @intervalssuperior;           # superscript interval after root
         sub @roots @quality @intervals' by @intervalssuperior;  # superscript interval after quality
+        ignore sub @interior @intervals';
+        sub @intervals' by @intervalssuperior;                  # catch-all
 } intervals_1;
 
 lookup intervals_2 {
@@ -74,6 +76,13 @@ lookup resolutions {
     sub @intervalssubscript equal' by hyphensuperior hyphensubscript;
     sub hyphensuperior @intervals' by @intervalssuperior;
     sub hyphensubscript @intervals' by @intervalssuperior;
+    sub hyphensuperior hyphen' by hyphensuperior;
+    sub hyphensubscript hyphen' by hyphensuperior hyphensubscript;
+    sub hyphensubscript equal' by hyphensuperior hyphensubscript;
+    ignore sub @interior hyphen';
+    ignore sub @interior equal';
+    sub hyphen' by hyphensuperior;
+    sub equal' by hyphensuperior hyphensubscript;
 } resolutions;
 
 #lookup inversion_1 {
