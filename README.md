@@ -20,6 +20,8 @@ When used in a context where this makes sense,
 "bb" and "##" turn into double flat and double sharp,
 "o" and "0" turn into diminished and half-diminished symbols,
 and "^" turns into a triangle.
+"-" and "=" can be used and repeated to create dashes of arbitrary length
+to connect superscripted and subscripted numbers.
 
 ![Campania](Campania.png?raw=true)
 

@@ -24,8 +24,9 @@ lookup liga_inversions {
 
 lookup leading {
     sub @accidentalsraw' @roots by @accidentals;
-#    sub @accidentalsraw' @nashville by @accidentals;
     sub slash @accidentalsraw' by @accidentals;
+#    ignore sub @interior @accidentalsraw';
+    sub @accidentalsraw' @intervals by @accidentalssuperior;
 } leading;
 
 lookup trailing {
@@ -39,8 +40,9 @@ lookup trailing {
 lookup intervals_1 {
         sub @roots @intervals' by @intervalssuperior;           # superscript interval after root
         sub @roots @quality @intervals' by @intervalssuperior;  # superscript interval after quality
+        sub @accidentalssuperior @intervals' by @intervalssuperior;
         ignore sub @interior @intervals';
-        sub @intervals' by @intervalssuperior;                  # catch-all
+        sub @intervals' by @intervalssuperior;                  # catch-all for leading intervals
 } intervals_1;
 
 lookup intervals_2 {
@@ -81,7 +83,7 @@ lookup resolutions {
     sub hyphensubscript equal' by hyphensuperior hyphensubscript;
     ignore sub @interior hyphen';
     ignore sub @interior equal';
-    sub hyphen' by hyphensuperior;
+    sub hyphen' by hyphensuperior;                              # catch-all for leading hyphens
     sub equal' by hyphensuperior hyphensubscript;
 } resolutions;
 
