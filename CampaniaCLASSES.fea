@@ -15,12 +15,14 @@
 
 @roots = [ A-Z a-z @roman ];
 
-@quality = [ m M a A j i x degree degreeslash triangle ];
+@quality = [ m M a A j i x diminished halfdiminished augmented majortriangle ];
 
 @intervals = [ zero one two three four five six seven eight nine ];
 @intervalssuperior = [ zerosuperior onesuperior twosuperior threesuperior foursuperior fivesuperior sixsuperior sevensuperior eightsuperior ninesuperior ];
 @intervalssubscript = [ zerosubscript onesubscript twosubscript threesubscript foursubscript fivesubscript sixsubscript sevensubscript eightsubscript ninesubscript ];
 @intervalsstack = [ @intervalssuperior @intervalssubscript ];
 @intervalssupersuper = [ zerosupersuper onesupersuper twosupersuper threesupersuper foursupersuper fivesupersuper sixsupersuper sevensupersuper eightsupersuper ninesupersuper ];
+
+@intervalsliga = [ sevenfivethree sixfivethree sixfourthree sixfourtwo ];
 
 @interior = [ @roots @quality @accidentals @accidentalssuperior @accidentalsraw @intervals @intervalssuperior @intervalssubscript @intervalssupersuper hyphen hyphensuperior hyphensubscript equal slash ];

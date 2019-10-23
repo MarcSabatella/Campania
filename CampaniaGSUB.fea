@@ -22,7 +22,12 @@ lookup liga_inversions {
     sub [ @roots @quality ] six' four' two' by sixfourtwo;
 } liga_inversions;
 
+lookup escapesequence {
+    sub backslash' [ backslash @accidentalsraw @intervals equal hyphen o zero asciicircum plus ] by escape;
+} escapesequence;
+
 lookup leading {
+    ignore sub escape [ @accidentalsraw ];
     sub @accidentalsraw' @roots by @accidentals;
     sub slash @accidentalsraw' by @accidentals;
 #    ignore sub @interior @accidentalsraw';
@@ -30,27 +35,35 @@ lookup leading {
 } leading;
 
 lookup trailing {
-    sub @roots o' by degree;
-    sub @roots zero' by degreeslash;
-    sub @roots [ asciicircum ]' by triangle;
+    ignore sub escape [ o zero asciicircum plus ]';
+    sub @roots o' by diminished;
+    sub @roots zero' by halfdiminished;
+    sub @roots asciicircum' by majortriangle;
+    sub @roots plus' by augmented;
+    sub [ @quality hyphen ] plus' by plussuperior;
+    sub [ @quality hyphen ] asciicircum' by trianglesuperior;
 } trailing;
 
 # interval and inversion lookups
 
 lookup intervals_1 {
-        sub @roots @intervals' by @intervalssuperior;           # superscript interval after root
-        sub @roots @quality @intervals' by @intervalssuperior;  # superscript interval after quality
-        sub @accidentalssuperior @intervals' by @intervalssuperior;
-        ignore sub @interior @intervals';
-        sub @intervals' by @intervalssuperior;                  # catch-all for leading intervals
+    ignore sub escape [ @intervals ]';
+    sub @roots @intervals' by @intervalssuperior;           # superscript interval after root
+    sub @roots @quality @intervals' by @intervalssuperior;  # superscript interval after quality
+    sub @accidentalssuperior @intervals' by @intervalssuperior;
+    sub [ hyphen equal ] @intervals' by @intervalssuperior;
+    ignore sub @interior @intervals';
+    sub @intervals' by @intervalssuperior;                  # catch-all for leading intervals
 } intervals_1;
 
 lookup intervals_2 {
+    ignore sub escape [ @intervals ]';
     ignore sub onesuperior onesuperior @intervals';             # do not allow three-digit numbers
     sub onesuperior @intervals' by @intervalssuperior;          # allow two digit numbers
 } intervals_2;
 
 lookup inversion_3 {
+    ignore sub escape [ @intervals ]';
 # use @intervalssupersuper rather than GPOS
 #    sub @intervalssuperior @intervals' @intervals by @intervalssuperior;    # set up stack of three intervals (superscript, superscript, subscript)
     sub @intervalssuperior' @intervals @intervals by @intervalssupersuper;
@@ -58,6 +71,7 @@ lookup inversion_3 {
 } inversion_3;
 
 lookup inversion_2 {
+    ignore sub escape [ @intervals ]';
     sub @intervalssuperior @intervals' by @intervalssubscript;  # set up stack of two intervals (superscript, subscript)
     sub [ hyphen equal ] @intervals' by @intervalssuperior;     # superscript after hyphen
 } inversion_2;
@@ -65,20 +79,28 @@ lookup inversion_2 {
 # alteration lookups
 
 lookup alterations {
+    ignore sub escape [ @accidentalsraw @intervals ]';
     sub @intervalssuperior @accidentalsraw' by @accidentalssuperior;
     sub @intervalssubscript @accidentalsraw' by @accidentalssuperior;
     sub @accidentalssuperior @intervals' by @intervalssuperior;
     sub @roots @accidentalsraw' by @accidentalssuperior;
     sub @roots @quality @accidentalsraw' by @accidentalssuperior;
+    sub [ hyphen equal ] @accidentalsraw' by @accidentalssuperior;
 } alterations;
 
 lookup resolutions {
+    ignore sub escape [ hyphen equal @intervals ]';
+    sub hyphensuperior underscore' by hyphensubscript;
+    sub equal' underscore by hyphensupersuper hyphensuperior;
     sub @intervalssuperior hyphen' by hyphensuperior;
+    sub @intervalssupersuper @intervalssuperior @intervalssubscript hyphen' by hyphensupersuper hyphensuperior hyphensubscript;
+    sub @intervalsliga hyphen' by hyphensupersuper hyphensuperior hyphensubscript;
     sub @intervalssubscript hyphen' by hyphensuperior hyphensubscript;
     sub @intervalssubscript equal' by hyphensuperior hyphensubscript;
     sub hyphensuperior @intervals' by @intervalssuperior;
     sub hyphensubscript @intervals' by @intervalssuperior;
     sub hyphensuperior hyphen' by hyphensuperior;
+    sub hyphensupersuper hyphensuperior hyphensubscript hyphen' by hyphensupersuper hyphensuperior hyphensubscript;
     sub hyphensubscript hyphen' by hyphensuperior hyphensubscript;
     sub hyphensubscript equal' by hyphensuperior hyphensubscript;
     ignore sub @interior hyphen';
@@ -97,6 +119,7 @@ feature liga {
 } liga;
 
 feature calt {
+    lookup escapesequence;
     lookup leading;
     lookup trailing;
     lookup intervals_1;
