@@ -26,6 +26,7 @@ lookup inversion_2_pos {
     pos onesuperior @intervalssuperior -150;            # kern two-digit superscript numbers
     pos onesubscript @intervalssubscript -150;          # kern two-digit subscript numbers
     pos @noonesuperior @intervalsstack -737;            # move superscript and subscript numerals left to align under superscript numerals
+    pos hyphensupersuper hyphensuperior -395;           # move superscript hyphen left to align under supersuper hyphen (64-53)
     pos hyphensuperior hyphensubscript -395;            # move subscript hyphen left to align under superscript hyphen (64-53)
 } inversion_2_pos;
 
