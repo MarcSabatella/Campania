@@ -18,10 +18,13 @@ are automatically superscripted and stacked vertically.
 When used in a context where this makes sense,
 "b" and "#" turn into flat and sharp,
 "bb" and "##" turn into double flat and double sharp,
+"h" turns into natural,
 "o" and "0" turn into diminished and half-diminished symbols,
 and "^" turns into a triangle.
 "-" and "=" can be used and repeated to create dashes of arbitrary length
 to connect superscripted and subscripted numbers.
+Backslash before a character can be used to prevent the usual substitution
+(e.g., "\b" to prevent a "b" from turning into a flat).
 
 ![Campania](Campania.png?raw=true)
 
