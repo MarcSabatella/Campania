@@ -23,11 +23,11 @@ lookup liga_inversions {
 } liga_inversions;
 
 lookup escapesequence {
-    sub backslash' [ backslash @accidentalsraw @intervals equal hyphen o zero asciicircum plus ] by escape;
+    sub backslash' [ backslash @accidentalsraw @intervals equal hyphen o zero asciicircum plus ] by zwsp;
 } escapesequence;
 
 lookup leading {
-    ignore sub escape [ @accidentalsraw ];
+    ignore sub zwsp [ @accidentalsraw ]';
     sub @accidentalsraw' @roots by @accidentals;
     sub slash @accidentalsraw' by @accidentals;
 #    ignore sub @interior @accidentalsraw';
@@ -35,7 +35,7 @@ lookup leading {
 } leading;
 
 lookup trailing {
-    ignore sub escape [ o zero asciicircum plus ]';
+    ignore sub zwsp [ o zero asciicircum plus ]';
     sub @roots o' by diminished;
     sub @roots zero' by halfdiminished;
     sub @roots asciicircum' by majortriangle;
@@ -47,7 +47,7 @@ lookup trailing {
 # interval and inversion lookups
 
 lookup intervals_1 {
-    ignore sub escape [ @intervals ]';
+    ignore sub zwsp [ @intervals ]';
     sub @roots @intervals' by @intervalssuperior;           # superscript interval after root
     sub @roots @quality @intervals' by @intervalssuperior;  # superscript interval after quality
     sub @accidentalssuperior @intervals' by @intervalssuperior;
@@ -57,13 +57,13 @@ lookup intervals_1 {
 } intervals_1;
 
 lookup intervals_2 {
-    ignore sub escape [ @intervals ]';
+    ignore sub zwsp [ @intervals ]';
     ignore sub onesuperior onesuperior @intervals';             # do not allow three-digit numbers
     sub onesuperior @intervals' by @intervalssuperior;          # allow two digit numbers
 } intervals_2;
 
 lookup inversion_3 {
-    ignore sub escape [ @intervals ]';
+    ignore sub zwsp [ @intervals ]';
 # use @intervalssupersuper rather than GPOS
 #    sub @intervalssuperior @intervals' @intervals by @intervalssuperior;    # set up stack of three intervals (superscript, superscript, subscript)
     sub @intervalssuperior' @intervals @intervals by @intervalssupersuper;
@@ -71,7 +71,7 @@ lookup inversion_3 {
 } inversion_3;
 
 lookup inversion_2 {
-    ignore sub escape [ @intervals ]';
+    ignore sub zwsp [ @intervals ]';
     sub @intervalssuperior @intervals' by @intervalssubscript;  # set up stack of two intervals (superscript, subscript)
     sub [ hyphen equal ] @intervals' by @intervalssuperior;     # superscript after hyphen
 } inversion_2;
@@ -79,7 +79,7 @@ lookup inversion_2 {
 # alteration lookups
 
 lookup alterations {
-    ignore sub escape [ @accidentalsraw @intervals ]';
+    ignore sub zwsp [ @accidentalsraw @intervals ]';
     sub @intervalssuperior @accidentalsraw' by @accidentalssuperior;
     sub @intervalssubscript @accidentalsraw' by @accidentalssuperior;
     sub @accidentalssuperior @intervals' by @intervalssuperior;
@@ -89,7 +89,7 @@ lookup alterations {
 } alterations;
 
 lookup resolutions {
-    ignore sub escape [ hyphen equal @intervals ]';
+    ignore sub zwsp [ hyphen equal @intervals ]';
     sub hyphensuperior underscore' by hyphensubscript;
     sub equal' underscore by hyphensupersuper hyphensuperior;
     sub @intervalssuperior hyphen' by hyphensuperior;
