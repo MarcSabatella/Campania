@@ -9,7 +9,10 @@ Instead, it uses the glyphs from [Doulos](https://software.sil.org/doulos/)
 and adds some relatively straightforward contextual substitutions and positioning rules
 to allow you to enter the most common symbols just by typing naturally.
 
-To install Campania, download either the [TTF](Campania.ttf?raw=true) or [OTF](Campania.otf?raw=true) files
+Campania is bundled with MuseScore 3.3,
+but you can install the font normally on your system as well
+if you wish to use it with other programs.
+You can download either the [TTF](Campania.ttf?raw=true) or [OTF](Campania.otf?raw=true) files
 and follow the standard procedures for installing and selecting fonts on your system.
 
 To use Campania, simply type as you normally would, and the formatting happens automatically.
@@ -21,8 +24,9 @@ When used in a context where this makes sense,
 "h" turns into natural,
 "o" and "0" turn into diminished and half-diminished symbols,
 and "^" turns into a triangle.
-"-" and "=" can be used and repeated to create dashes of arbitrary length
+"-" and "=" can be used and repeated to create dashes and double dashes of arbitrary length
 to connect superscripted and subscripted numbers.
+You can also use "\_" to add an additional parallel dash.
 Backslash before a character can be used to prevent the usual substitution
 (e.g., "\b" to prevent a "b" from turning into a flat).
 
@@ -31,3 +35,4 @@ Backslash before a character can be used to prevent the usual substitution
 This font should work in any program that handles fonts reasonably.
 It is tested to work in [MuseScore](https://musescore.org) and in [LibreOffice](https://www.libreoffice.org/),
 and will probably work in the commercial alternatives as well.
+Some programs - like Microsoft Word - may require you to explicitly enable OpenType features.
